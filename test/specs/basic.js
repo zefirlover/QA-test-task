@@ -24,7 +24,7 @@ function generateLogin() {
 }
 
 describe('registration test', () => {
-    xit('registration from header', async () => {
+    it('registration from header', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.registerButton.click();
         await expect(browser).toHaveUrlContaining('signup');
@@ -66,7 +66,7 @@ describe('registration test', () => {
     });
     it('registration from down block', async () => {
         await browser.url(`https://github.com/`);
-        await mainPage.downRegisterButton.scrollIntoView();
+        await mainPage.contributionHeader.scrollIntoView();
 
         await browser.pause(1000);
 

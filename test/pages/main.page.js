@@ -8,6 +8,9 @@ class MainPage {
     get downRegisterButton() {
         return $('/html/body/div[4]/main/div[2]/div[5]/div[4]/div/div/div[1]/a[1]')
     }
+    get contributionHeader() {
+        return $('/html/body/div[4]/main/div[2]/div[5]/div[4]/div/div/div[1]/h2')
+    }
 }
 
 module.exports = new MainPage();
