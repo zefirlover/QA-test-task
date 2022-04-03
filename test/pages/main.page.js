@@ -1,6 +1,6 @@
 class MainPage {
     get loginButton() {
-        return $('/html/body/div[1]/header/div/div[2]/div[2]/div[2]/a');
+        return $('/html/body/div[1]/header/div/div[2]/div[2]/div[2]');
     };
     get registerButton() {
         return $('/html/body/div[1]/header/div/div[2]/div[2]/a');

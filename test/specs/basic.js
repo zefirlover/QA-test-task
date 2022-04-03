@@ -1,3 +1,5 @@
+const loginPage = require("../pages/login.page.js");
+const loginedPage = require("../pages/logined.page.js");
 const mainPage = require("../pages/main.page.js");
 const signupPage = require("../pages/signup.page.js");
 
@@ -24,7 +26,7 @@ function generateLogin() {
 }
 
 describe('registration test', () => {
-    it('registration from header', async () => {
+    xit('registration from header', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.registerButton.click();
         await expect(browser).toHaveUrlContaining('signup');
@@ -64,7 +66,7 @@ describe('registration test', () => {
         await expect(signupPage.captchaHeader).toBeDisplayedInViewport();
         await signupPage.captchaHeader.saveScreenshot('screenshots/screenshot'+getRandomInt(15000)+'.png')
     });
-    it('registration from down block', async () => {
+    xit('registration from down block', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.contributionHeader.scrollIntoView();
 
@@ -108,5 +110,63 @@ describe('registration test', () => {
 
         await expect(signupPage.captchaHeader).toBeDisplayedInViewport();
         await signupPage.captchaHeader.saveScreenshot('screenshots/screenshot'+getRandomInt(15000)+'.png')
+    });
+});
+
+describe('login test', () => {
+    xit('login testing with invalid login', async () => {
+        await browser.url(`https://github.com/`);
+        await mainPage.loginButton.click();
+
+        await expect(loginPage.usernameInput).toBeFocused();
+        await loginPage.usernameInput.setValue('zefirlover@gmail.com'); // wrong login
+
+        await signupPage.passwordInput.addValue('HuskTheBest75_');
+        await expect(loginPage.confirmButton).toBeDisplayed();
+        await loginPage.confirmButton.click();
+        await expect(loginPage.errorContainer).toBeDisplayed();
+    });
+    xit('login testing with invalid password', async () => {
+        await browser.url(`https://github.com/`);
+        await mainPage.loginButton.click();
+
+        await expect(loginPage.usernameInput).toBeFocused();
+        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+
+        await signupPage.passwordInput.addValue('HuskTheBest75'); // wrong password
+        await expect(loginPage.confirmButton).toBeDisplayed();
+        await loginPage.confirmButton.click();
+        await expect(loginPage.errorContainer).toBeDisplayed();
+    });
+    xit('password input clearing feature testing', async () => {
+        //when you enter the wrong credentials, the webpage automatically delete the value in the password input
+        await browser.url(`https://github.com/`);
+        await mainPage.loginButton.click();
+
+        await expect(loginPage.usernameInput).toBeFocused();
+        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+
+        await signupPage.passwordInput.addValue('HuskTheBest75'); // wrong password
+        await expect(loginPage.confirmButton).toBeDisplayed();
+        await loginPage.confirmButton.click();
+        await expect(loginPage.errorContainer).toBeDisplayed();
+
+        await signupPage.passwordInput.addValue('HuskTheBest75_');
+        await expect(signupPage.passwordInput).toHaveValue('HuskTheBest75_');
+    });
+    it('login testing with valid data', async () => {
+        await browser.url(`https://github.com/`);
+        await mainPage.loginButton.click();
+
+        await expect(loginPage.usernameInput).toBeFocused();
+        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+
+        await signupPage.passwordInput.addValue('HuskTheBest75_');
+        // correct one, with kind of input field emptiness checking
+        
+        await expect(loginPage.confirmButton).toBeDisplayed();
+        await loginPage.confirmButton.click();
+
+        await expect(loginedPage.pullRequestsRef).toBeDisplayed();
     });
 })
