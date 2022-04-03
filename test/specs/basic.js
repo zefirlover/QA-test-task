@@ -1,6 +1,7 @@
 const loginPage = require("../pages/login.page.js");
 const loginedPage = require("../pages/logined.page.js");
 const mainPage = require("../pages/main.page.js");
+const pricingPage = require("../pages/pricing.page.js");
 const signupPage = require("../pages/signup.page.js");
 
 function getRandomInt() {
@@ -118,8 +119,8 @@ describe('login test', () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
-        await expect(loginPage.usernameInput).toBeFocused();
-        await loginPage.usernameInput.setValue('zefirlover@gmail.com'); // wrong login
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue('zefirlover@gmail.com'); // wrong login
 
         await signupPage.passwordInput.addValue('HuskTheBest75_');
         await expect(loginPage.confirmButton).toBeDisplayed();
@@ -130,8 +131,8 @@ describe('login test', () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
-        await expect(loginPage.usernameInput).toBeFocused();
-        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue('zefirlover.testing@gmail.com');
 
         await signupPage.passwordInput.addValue('HuskTheBest75'); // wrong password
         await expect(loginPage.confirmButton).toBeDisplayed();
@@ -143,8 +144,8 @@ describe('login test', () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
-        await expect(loginPage.usernameInput).toBeFocused();
-        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue('zefirlover.testing@gmail.com');
 
         await signupPage.passwordInput.addValue('HuskTheBest75'); // wrong password
         await expect(loginPage.confirmButton).toBeDisplayed();
@@ -154,12 +155,12 @@ describe('login test', () => {
         await signupPage.passwordInput.addValue('HuskTheBest75_');
         await expect(signupPage.passwordInput).toHaveValue('HuskTheBest75_');
     });
-    it('login testing with valid data', async () => {
+    xit('login testing with valid data', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
-        await expect(loginPage.usernameInput).toBeFocused();
-        await loginPage.usernameInput.setValue('zefirlover.testing@gmail.com');
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue('zefirlover.testing@gmail.com');
 
         await signupPage.passwordInput.addValue('HuskTheBest75_');
         // correct one, with kind of input field emptiness checking
@@ -168,5 +169,50 @@ describe('login test', () => {
         await loginPage.confirmButton.click();
 
         await expect(loginedPage.pullRequestsRef).toBeDisplayed();
+
+        // exititng from account to be able to run all specs without troubles
+        await loginedPage.userPanelButton.click();
+        await expect(loginedPage.userPanelDropdown).toBeDisplayed();
+        await loginedPage.signoutButton.click();
     });
+});
+
+describe('hover test', () => {
+    xit('test elements displayed while hover the button', async () => {
+        await browser.url(`https://github.com/`);
+        await mainPage.productHover.click();
+        await expect(mainPage.productDropdown).toBeDisplayedInViewport();
+
+        await mainPage.exploreHover.moveTo();
+        await mainPage.exploreHover.click();
+        await expect(mainPage.exploreDropdown).toBeDisplayedInViewport();
+
+        await mainPage.pricingHover.moveTo();
+        await mainPage.pricingHover.click();
+        await expect(mainPage.pricingDropdown).toBeDisplayedInViewport();
+    });
+});
+
+describe('pricing signup test', () => {
+    it('testing sign up via choosing the pricing plan', async () => {
+        await browser.url(`https://github.com/`); 
+
+        await mainPage.pricingHover.moveTo();
+        await mainPage.pricingHover.click();
+        await expect(mainPage.pricingDropdown).toBeDisplayedInViewport();
+
+        await mainPage.pricingRef.click();
+
+        await pricingPage.joinButton.scrollIntoView();
+        await pricingPage.joinButton.click();
+
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue(generateLogin());
+
+        await signupPage.emailInput.click();
+        await signupPage.emailInput.setValue('username' + getRandomInt() + '@gmail.com');
+
+        await signupPage.passwordInput.click();
+        await signupPage.passwordInput.setValue(generatePassword());
+    })
 })

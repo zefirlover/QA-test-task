@@ -1,18 +1,18 @@
 class SignUpPage {
     get emailInput() {
-        return $('#email');
+        return $('input[id*=email]');
     };
     get emailContiniueButton() {
         return $('//*[@id="email-container"]/div[2]/button');
     };
     get passwordInput() {
-        return $('#password');
+        return $('input[id*=password]');
     };
     get passwordContiniueButton() {
         return $('//*[@id="password-container"]/div[2]/button');
     };
     get loginInput() {
-        return $('#login');
+        return $('input[id*=login]');
     };
     get usernameContiniueButton() {
         return $('//*[@id="username-container"]/div[2]/button');

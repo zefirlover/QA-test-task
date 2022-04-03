@@ -1,7 +1,4 @@
 class LoginPage {
-    get usernameInput() {
-        return $('#login_field');
-    }
     get errorContainer() {
         return $('.flash-error');
     }
