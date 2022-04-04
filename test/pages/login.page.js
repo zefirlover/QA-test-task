@@ -5,6 +5,9 @@ class LoginPage {
     get confirmButton() {
         return $('*[value="Sign in"]')
     }
+    get forgotPasswordRef() {
+        return $('*[href="/password_reset"]')
+    }
 }
 
 module.exports = new LoginPage();

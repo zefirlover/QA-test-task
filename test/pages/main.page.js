@@ -35,6 +35,13 @@ class MainPage {
     get pricingRef() {
         return $('*[href="/pricing"]')
     }
+    get exploreRef() {
+        return $('[href="/explore"')
+    }
+
+    get searchInput() {
+        return $('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label/input[1]')
+    }
 }
 
 module.exports = new MainPage();

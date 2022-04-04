@@ -1,8 +1,12 @@
+const explorePage = require("../pages/explore.page.js");
+const forgotPasswordPage = require("../pages/forgotPassword.page.js");
 const loginPage = require("../pages/login.page.js");
 const loginedPage = require("../pages/logined.page.js");
 const mainPage = require("../pages/main.page.js");
 const pricingPage = require("../pages/pricing.page.js");
+const searchPage = require("../pages/search.page.js");
 const signupPage = require("../pages/signup.page.js");
+const topicsPage = require("../pages/topics.page.js");
 
 function getRandomInt() {
     return Math.floor(Math.random() * 50000); // to create pseudorandom screenshot name
@@ -194,7 +198,7 @@ describe('hover test', () => {
 });
 
 describe('pricing signup test', () => {
-    it('testing sign up via choosing the pricing plan', async () => {
+    xit('testing sign up via choosing the pricing plan', async () => {
         await browser.url(`https://github.com/`); 
 
         await mainPage.pricingHover.moveTo();
@@ -214,5 +218,52 @@ describe('pricing signup test', () => {
 
         await signupPage.passwordInput.click();
         await signupPage.passwordInput.setValue(generatePassword());
+    })
+});
+
+describe('forgot password recover test', () => {
+    xit('test the "Forgot password?" ref', async () => {
+        await browser.url('https://github.com/login');
+
+        await expect(loginPage.forgotPasswordRef).toBeDisplayedInViewport();
+        await loginPage.forgotPasswordRef.click();
+
+        await signupPage.emailInput.setValue('username' + getRandomInt() + '@gmail.com');
+        await expect(forgotPasswordPage.captcha).toBeDisplayedInViewport();
+    })
+});
+
+describe('exploring the repository lists pages', () => {
+    xit('open the topics tab test', async () => {
+        await browser.url('https://github.com');
+
+        await mainPage.exploreHover.click();
+        await expect(mainPage.exploreDropdown).toBeDisplayedInViewport(); 
+        await mainPage.exploreRef.click();
+        
+        await expect(browser).toHaveUrlContaining('explore');
+        await expect(explorePage.topicsRef).toBeDisplayedInViewport();
+        await explorePage.topicsRef.click();
+
+        await expect(browser).toHaveUrlContaining('topics');
+        await expect(topicsPage.topicsH1).toBeDisplayedInViewport();
+        console.log('topics header text: ', await topicsPage.topicsH1.getText());
+    });
+    it('searching the webdriverio repo test', async () => {
+        await browser.url('https://github.com');
+
+        await expect(mainPage.searchInput).toBeDisplayedInViewport();
+        await mainPage.searchInput.setValue('webdriverio');
+        await browser.keys(['Enter']);
+
+        await expect(browser).toHaveUrlContaining('search');
+
+        await expect(searchPage.typeScriptRef).toBeDisplayedInViewport();
+        await searchPage.typeScriptRef.click();
+        await expect(browser).toHaveUrlContaining('TypeScript');
+
+        await expect(searchPage.repoRef).toBeDisplayedInViewport();
+        await searchPage.repoRef.click();
+        await expect(browser).toHaveUrlContaining('webdriverio-typescript');
     })
 })
