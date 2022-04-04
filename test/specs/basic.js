@@ -1,3 +1,4 @@
+const careersPage = require("../pages/careers.page.js");
 const enterprisePlanPage = require("../pages/enterprisePlan.page.js");
 const explorePage = require("../pages/explore.page.js");
 const forgotPasswordPage = require("../pages/forgotPassword.page.js");
@@ -321,4 +322,22 @@ describe('choosing the enterprise plan testing', () => {
         await expect(serverPlanPage.termsChoice).toBeDisplayedInViewport();
         await serverPlanPage.termsChoice.click();
     });
-})
+});
+
+describe('testing the career page output', () => {
+    it('testing open positions output on the career page', async () => {
+        await browser.url('https://github.com');
+
+        await mainPage.careerRef.scrollIntoView();
+        await expect(mainPage.careerRef).toBeDisplayedInViewport();
+        await mainPage.careerRef.click();
+
+        await careersPage.positionsListHeader.scrollIntoView();
+        await expect(careersPage.positionsListHeader).toBeDisplayedInViewport();
+
+        console.log('open positions list:');
+        for (const position of await careersPage.positionsList) {
+            console.log(await position.getText());
+        };
+    });
+});

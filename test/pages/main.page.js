@@ -46,6 +46,10 @@ class MainPage {
     get enterpriseButton() {
         return $('[href*="/organizations/enterprise_plan"]')
     }
+
+    get careerRef() {
+        return $('[href*="careers"]')
+    }
 }
 
 module.exports = new MainPage();
