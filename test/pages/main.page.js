@@ -42,6 +42,10 @@ class MainPage {
     get searchInput() {
         return $('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label/input[1]')
     }
+
+    get enterpriseButton() {
+        return $('[href*="/organizations/enterprise_plan"]')
+    }
 }
 
 module.exports = new MainPage();

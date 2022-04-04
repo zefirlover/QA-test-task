@@ -1,3 +1,4 @@
+const enterprisePlanPage = require("../pages/enterprisePlan.page.js");
 const explorePage = require("../pages/explore.page.js");
 const forgotPasswordPage = require("../pages/forgotPassword.page.js");
 const loginPage = require("../pages/login.page.js");
@@ -5,6 +6,7 @@ const loginedPage = require("../pages/logined.page.js");
 const mainPage = require("../pages/main.page.js");
 const pricingPage = require("../pages/pricing.page.js");
 const searchPage = require("../pages/search.page.js");
+const serverPlanPage = require("../pages/serverPlan.page.js");
 const signupPage = require("../pages/signup.page.js");
 const topicsPage = require("../pages/topics.page.js");
 
@@ -249,7 +251,7 @@ describe('exploring the repository lists pages', () => {
         await expect(topicsPage.topicsH1).toBeDisplayedInViewport();
         console.log('topics header text: ', await topicsPage.topicsH1.getText());
     });
-    it('searching the webdriverio repo test', async () => {
+    xit('searching the webdriverio repo test', async () => {
         await browser.url('https://github.com');
 
         await expect(mainPage.searchInput).toBeDisplayedInViewport();
@@ -266,4 +268,57 @@ describe('exploring the repository lists pages', () => {
         await searchPage.repoRef.click();
         await expect(browser).toHaveUrlContaining('webdriverio-typescript');
     })
+})
+
+describe('choosing the enterprise plan testing', () => {
+    xit('choosing the enterprise cloud plan', async () => {
+        await browser.url('https://github.com');
+
+        await mainPage.enterpriseButton.scrollIntoView();
+        await expect(mainPage.enterpriseButton).toBeDisplayedInViewport();
+        await mainPage.enterpriseButton.click();
+        await expect(browser).toHaveUrlContaining('organizations/enterprise_plan');
+
+        await expect(enterprisePlanPage.cloudRef).toBeDisplayedInViewport();
+        await enterprisePlanPage.cloudRef.click();
+
+        await expect(browser).toHaveUrlContaining('join?plan');
+
+        await expect(signupPage.loginInput).toBeFocused();
+        await signupPage.loginInput.setValue(generateLogin());
+        await signupPage.emailInput.setValue('username' + getRandomInt() + '@gmail.com');
+        await signupPage.passwordInput.setValue(generatePassword());
+    });
+    xit('choosing the enterprise server plan', async () => {
+        // CAUTION! Before starting this test be sure that the previous test will not be skipped
+        await browser.back();
+
+        await expect(browser).toHaveUrlContaining('organizations/enterprise_plan');
+        await expect(enterprisePlanPage.serverRef).toBeDisplayedInViewport();
+        await enterprisePlanPage.serverRef.click();
+
+        await expect(browser).toHaveUrlContaining('pricing-card-enterprise');
+
+        await expect(serverPlanPage.nameInput).toBeFocused();
+        await serverPlanPage.nameInput.setValue(generateLogin());
+        await serverPlanPage.companyInput.setValue(generateLogin());
+        await signupPage.emailInput.setValue('username' + getRandomInt() + '@gmail.com');
+        await serverPlanPage.phoneInput.setValue(getRandomInt());
+
+        await serverPlanPage.installationTypeChoice.scrollIntoView();
+        await expect(serverPlanPage.installationTypeChoice).toBeDisplayedInViewport();
+        await serverPlanPage.installationTypeChoice.click();
+
+        await serverPlanPage.questionChoice.scrollIntoView();
+        await expect(serverPlanPage.questionChoice).toBeDisplayedInViewport();
+        await serverPlanPage.questionChoice.click();
+
+        await serverPlanPage.questionTextarea.scrollIntoView();
+        await expect(serverPlanPage.questionTextarea).toBeDisplayedInViewport();
+        await serverPlanPage.questionTextarea.setValue(generateLogin() + generateLogin());
+
+        await serverPlanPage.termsChoice.scrollIntoView();
+        await expect(serverPlanPage.termsChoice).toBeDisplayedInViewport();
+        await serverPlanPage.termsChoice.click();
+    });
 })
