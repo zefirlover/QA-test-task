@@ -1,12 +1,12 @@
 {
-  "uid" : "f6e1c59c5ccdb859",
+  "uid" : "f07eb758ef0dab0",
   "name" : "using only xpath locators",
   "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ce1ebb5654fa0b1f67075a6b2546b077",
+  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
   "time" : {
-    "start" : 1650545601183,
-    "stop" : 1650545604623,
-    "duration" : 3440
+    "start" : 1650541351763,
+    "stop" : 1650541357620,
+    "duration" : 5857
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -48,7 +48,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-100.0.4896.75"
+    "value" : "chrome-100.0.4896.127"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -57,8 +57,28 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1f5bafa3f8da5627",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1650541351763,
+          "stop" : 1650541357620,
+          "duration" : 5857
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "f6e1c59c5ccdb859.json",
-  "parameterValues" : [ "chrome-100.0.4896.75" ]
+  "source" : "f07eb758ef0dab0.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
 }
