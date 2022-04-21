@@ -4,7 +4,7 @@
     "name" : "My test application",
     "children" : [ {
       "name" : "using only xpath locators",
-      "uid" : "f07eb758ef0dab0",
+      "uid" : "366300c99a3bd361",
       "parentUid" : "16550f541f9783e2ba4093712d3e51fe",
       "status" : "skipped",
       "time" : {
@@ -20,13 +20,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.127" ]
     }, {
-      "name" : "first task",
-      "uid" : "92bebc76eb914545",
+      "name" : "second task",
+      "uid" : "8fb31dc115bce1be",
       "parentUid" : "16550f541f9783e2ba4093712d3e51fe",
       "status" : "skipped",
       "time" : {
-        "start" : 1650546121522,
-        "stop" : 1650546121522,
+        "start" : 1650546356288,
+        "stop" : 1650546356288,
         "duration" : 0
       },
       "flaky" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ ]
     }, {
       "name" : "using only xpath locators",
-      "uid" : "994ecd3009627713",
+      "uid" : "ab1488c22aa81cc",
       "parentUid" : "16550f541f9783e2ba4093712d3e51fe",
       "status" : "skipped",
       "time" : {
-        "start" : 1650546121522,
-        "stop" : 1650546126389,
-        "duration" : 4867
+        "start" : 1650546356288,
+        "stop" : 1650546359314,
+        "duration" : 3026
       },
       "flaky" : false,
       "newFailed" : false,
@@ -54,13 +54,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "second task",
-      "uid" : "39f6717961a2667d",
+      "name" : "using css and xpath locators",
+      "uid" : "f4882704a3b89cab",
       "parentUid" : "16550f541f9783e2ba4093712d3e51fe",
       "status" : "skipped",
       "time" : {
-        "start" : 1650546121522,
-        "stop" : 1650546121522,
+        "start" : 1650546356288,
+        "stop" : 1650546356288,
         "duration" : 0
       },
       "flaky" : false,
@@ -71,13 +71,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "using css and xpath locators",
-      "uid" : "7cb8c55c8567d11a",
+      "name" : "first task",
+      "uid" : "e571688832cda9f2",
       "parentUid" : "16550f541f9783e2ba4093712d3e51fe",
       "status" : "skipped",
       "time" : {
-        "start" : 1650546121522,
-        "stop" : 1650546121522,
+        "start" : 1650546356288,
+        "stop" : 1650546356288,
         "duration" : 0
       },
       "flaky" : false,

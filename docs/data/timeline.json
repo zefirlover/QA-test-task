@@ -2,12 +2,12 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
     "name" : "first task",
-    "uid" : "92bebc76eb914545",
+    "uid" : "e571688832cda9f2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650546121522,
-      "stop" : 1650546121522,
+      "start" : 1650546356288,
+      "stop" : 1650546356288,
       "duration" : 0
     },
     "flaky" : false,
@@ -21,24 +21,7 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "using only xpath locators",
-      "uid" : "994ecd3009627713",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650546121522,
-        "stop" : 1650546126389,
-        "duration" : 4867
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-100.0.4896.75" ]
-    }, {
-      "name" : "using only xpath locators",
-      "uid" : "f07eb758ef0dab0",
+      "uid" : "366300c99a3bd361",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "skipped",
       "time" : {
@@ -53,11 +36,45 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "using only xpath locators",
+      "uid" : "ab1488c22aa81cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650546356288,
+        "stop" : 1650546359314,
+        "duration" : 3026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
+    "name" : "using css and xpath locators",
+    "uid" : "f4882704a3b89cab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650546356288,
+      "stop" : 1650546356288,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "second task",
-    "uid" : "c5861e159b4b34fa",
+    "uid" : "8da9794b732024e5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -73,13 +90,13 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "using css and xpath locators",
-    "uid" : "7cb8c55c8567d11a",
+    "name" : "second task",
+    "uid" : "8fb31dc115bce1be",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650546121522,
-      "stop" : 1650546121522,
+      "start" : 1650546356288,
+      "stop" : 1650546356288,
       "duration" : 0
     },
     "flaky" : false,
@@ -91,7 +108,7 @@
     "parameters" : [ ]
   }, {
     "name" : "first task",
-    "uid" : "6bf48a01176f43",
+    "uid" : "6a9b5dd90f70a589",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -108,7 +125,7 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "7597180d5704747d",
+    "uid" : "18453561572189c9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -121,23 +138,6 @@
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "second task",
-    "uid" : "39f6717961a2667d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650546121522,
-      "stop" : 1650546121522,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ],
