@@ -48,6 +48,7 @@ jobs:
         with:
           source-directory: 'docs'
           destination-github-username: zefirlover # Your username
+          destination-github-password: GBgt7355608
           destination-repository-name: QA-test-task # Name of your repo
           user-email: ibodikmushta@gmail.com # Your email
           target-branch: main 
