@@ -1,8 +1,25 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "using css and xpath locators",
+    "uid" : "1c97e56b7f000841",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650545601183,
+      "stop" : 1650545601183,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "second task",
-    "uid" : "6e66755e6a112d00",
+    "uid" : "a9a9051f1e28bb9f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -18,13 +35,51 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "using only xpath locators",
+      "uid" : "1e484416edca64a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650541351763,
+        "stop" : 1650541357620,
+        "duration" : 5857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    }, {
+      "name" : "using only xpath locators",
+      "uid" : "f6e1c59c5ccdb859",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650545601183,
+        "stop" : 1650545604623,
+        "duration" : 3440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
     "name" : "second task",
-    "uid" : "ca1cf2e901ecf265",
+    "uid" : "80c31dd590c0e241",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650544097729,
-      "stop" : 1650544097729,
+      "start" : 1650545601183,
+      "stop" : 1650545601183,
       "duration" : 0
     },
     "flaky" : false,
@@ -36,24 +91,7 @@
     "parameters" : [ ]
   }, {
     "name" : "first task",
-    "uid" : "a699cab53019981c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650544097729,
-      "stop" : 1650544097729,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "first task",
-    "uid" : "4df8fe7b6ebabe4a",
+    "uid" : "b43dd239272668a0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -69,46 +107,8 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "using only xpath locators",
-      "uid" : "dcc4550cf37f0a4a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650544097729,
-        "stop" : 1650544101284,
-        "duration" : 3555
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-100.0.4896.75" ]
-    }, {
-      "name" : "using only xpath locators",
-      "uid" : "deaf39153542269",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650541351763,
-        "stop" : 1650541357620,
-        "duration" : 5857
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-100.0.4896.127" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
     "name" : "using css and xpath locators",
-    "uid" : "fa6c5dade728b57e",
+    "uid" : "653353b534e6fd63",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -124,13 +124,13 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "using css and xpath locators",
-    "uid" : "bb2aae62ecb83daf",
+    "name" : "first task",
+    "uid" : "b3037c71996b5cbc",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650544097729,
-      "stop" : 1650544097729,
+      "start" : 1650545601183,
+      "stop" : 1650545601183,
       "duration" : 0
     },
     "flaky" : false,

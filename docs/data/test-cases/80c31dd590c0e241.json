@@ -1,11 +1,11 @@
 {
-  "uid" : "6e66755e6a112d00",
+  "uid" : "80c31dd590c0e241",
   "name" : "second task",
   "fullName" : "My test application.second task",
   "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650541351762,
-    "stop" : 1650541351762,
+    "start" : 1650545601183,
+    "stop" : 1650545601183,
     "duration" : 0
   },
   "description" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -39,12 +39,43 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a9a9051f1e28bb9f",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
+      }
+    } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "66252dff33118dc3",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1650541351762,
+          "stop" : 1650541351762,
+          "duration" : 0
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "6e66755e6a112d00.json",
+  "source" : "80c31dd590c0e241.json",
   "parameterValues" : [ ]
 }
