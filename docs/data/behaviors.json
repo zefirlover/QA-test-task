@@ -2,7 +2,7 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "first task",
-    "uid" : "9539919bded1643c",
+    "uid" : "a46331d7ffc2b131",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -18,8 +18,8 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "second task",
-    "uid" : "7676e0a1be92b13f",
+    "name" : "using css and xpath locators",
+    "uid" : "fd34c1859342f1ce",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -35,8 +35,8 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "using css and xpath locators",
-    "uid" : "443f0b4c0126d949",
+    "name" : "second task",
+    "uid" : "5d09eb37854166a2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -53,7 +53,7 @@
     "parameters" : [ ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "c9d20efed36eb48b",
+    "uid" : "d97f683b6c94d32d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
