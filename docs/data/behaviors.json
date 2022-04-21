@@ -2,7 +2,7 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "using only xpath locators",
-    "uid" : "93cd5120a9f3c278",
+    "uid" : "2918d3b6dd554dbc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -19,12 +19,12 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "first task",
-    "uid" : "cfc3e4460c68e9ab",
+    "uid" : "a972e755fcbbdef6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650549798962,
-      "stop" : 1650549798962,
+      "start" : 1650557581976,
+      "stop" : 1650557581976,
       "duration" : 0
     },
     "flaky" : false,
@@ -36,12 +36,12 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "1b5d9013c6a0fe7b",
+    "uid" : "5fb25e100427724f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650549798962,
-      "stop" : 1650549798962,
+      "start" : 1650557581977,
+      "stop" : 1650557581977,
       "duration" : 0
     },
     "flaky" : false,
@@ -53,13 +53,13 @@
     "parameters" : [ ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "c808d4317d35174c",
+    "uid" : "6ebb954f93ca8543",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650549798962,
-      "stop" : 1650549802128,
-      "duration" : 3166
+      "start" : 1650557581977,
+      "stop" : 1650557585263,
+      "duration" : 3286
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,12 +70,12 @@
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "second task",
-    "uid" : "bb16fe901e2f7d38",
+    "uid" : "b2c6d86174aa8eda",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650549798962,
-      "stop" : 1650549798962,
+      "start" : 1650557581977,
+      "stop" : 1650557581977,
       "duration" : 0
     },
     "flaky" : false,
