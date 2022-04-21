@@ -1,11 +1,11 @@
 {
-  "uid" : "fff8dcb62301c1d6",
-  "name" : "first task",
-  "fullName" : "My test application.first task",
-  "historyId" : "cd856c3d625fe504f51e5a5ff825f7c2",
+  "uid" : "bb16fe901e2f7d38",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650548856816,
-    "stop" : 1650548856816,
+    "start" : 1650549798962,
+    "stop" : 1650549798962,
     "duration" : 0
   },
   "description" : "",
@@ -29,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "first task"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -44,13 +44,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "6165ca01cf568886",
+      "uid" : "854befed509b0aa2",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351760,
-        "stop" : 1650541351761,
-        "duration" : 1
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
       }
     } ],
     "categories" : [ ],
@@ -64,18 +64,18 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "ead188859398fe2",
+        "uid" : "66252dff33118dc3",
         "status" : "skipped",
         "statusDetails" : "Test ignored",
         "time" : {
-          "start" : 1650541351760,
-          "stop" : 1650541351761,
-          "duration" : 1
+          "start" : 1650541351762,
+          "stop" : 1650541351762,
+          "duration" : 0
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "fff8dcb62301c1d6.json",
+  "source" : "bb16fe901e2f7d38.json",
   "parameterValues" : [ ]
 }
