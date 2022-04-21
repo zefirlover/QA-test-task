@@ -44,11 +44,10 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
         env:
-          API_TOKEN_GITHUB: ${{'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'}}
+          API_TOKEN_GITHUB: ${{'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'}}
         with:
           source-directory: 'docs'
           destination-github-username: zefirlover # Your username
-          destination-github-password: GBgt7355608
           destination-repository-name: QA-test-task # Name of your repo
           user-email: ibodikmushta@gmail.com # Your email
           target-branch: main 
