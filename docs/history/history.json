@@ -9,7 +9,7 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "d97f683b6c94d32d",
+      "uid" : "deaf39153542269",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -38,13 +38,13 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "a46331d7ffc2b131",
+      "uid" : "a699cab53019981c",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351760,
-        "stop" : 1650541351761,
-        "duration" : 1
+        "start" : 1650544097729,
+        "stop" : 1650544097729,
+        "duration" : 0
       }
     }, {
       "uid" : "ead188859398fe2",
@@ -54,6 +54,26 @@
         "start" : 1650541351760,
         "stop" : 1650541351761,
         "duration" : 1
+      }
+    } ]
+  },
+  "ce1ebb5654fa0b1f67075a6b2546b077" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcc4550cf37f0a4a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650544097729,
+        "stop" : 1650544101284,
+        "duration" : 3555
       }
     } ]
   },
@@ -67,12 +87,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "5d09eb37854166a2",
+      "uid" : "ca1cf2e901ecf265",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351762,
-        "stop" : 1650541351762,
+        "start" : 1650544097729,
+        "stop" : 1650544097729,
         "duration" : 0
       }
     }, {
@@ -96,12 +116,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "fd34c1859342f1ce",
+      "uid" : "bb2aae62ecb83daf",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351762,
-        "stop" : 1650541351762,
+        "start" : 1650544097729,
+        "stop" : 1650544097729,
         "duration" : 0
       }
     }, {

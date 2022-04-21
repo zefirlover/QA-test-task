@@ -1,0 +1,64 @@
+{
+  "uid" : "dcc4550cf37f0a4a",
+  "name" : "using only xpath locators",
+  "fullName" : "My test application.using only xpath locators",
+  "historyId" : "ce1ebb5654fa0b1f67075a6b2546b077",
+  "time" : {
+    "start" : 1650544097729,
+    "stop" : 1650544101284,
+    "duration" : 3555
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My test application"
+  }, {
+    "name" : "testClass",
+    "value" : "My test application"
+  }, {
+    "name" : "testMethod",
+    "value" : "using only xpath locators"
+  }, {
+    "name" : "package",
+    "value" : "My test application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcc4550cf37f0a4a.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

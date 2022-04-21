@@ -1,5 +1,5 @@
 {
-  "uid" : "d97f683b6c94d32d",
+  "uid" : "deaf39153542269",
   "name" : "using only xpath locators",
   "fullName" : "My test application.using only xpath locators",
   "historyId" : "ab933b157ec7eec20a575751e4170b4f",
@@ -79,6 +79,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "d97f683b6c94d32d.json",
+  "source" : "deaf39153542269.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }
