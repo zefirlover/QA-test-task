@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "uid" : "e1bd1240a917b03b",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b78e968d94d450a4",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650541351760,
+    "stop" : 1650541351761,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a0928661708159de",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb851ea4adc81004",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650541351763,
+    "stop" : 1650541357620,
+    "duration" : 5857
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

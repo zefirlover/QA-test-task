@@ -1,5 +1,77 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "My test application",
+    "children" : [ {
+      "name" : "first task",
+      "uid" : "b78e968d94d450a4",
+      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650541351760,
+        "stop" : 1650541351761,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "using css and xpath locators",
+      "uid" : "e1bd1240a917b03b",
+      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "second task",
+      "uid" : "a0928661708159de",
+      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "using only xpath locators",
+      "uid" : "cb851ea4adc81004",
+      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650541351763,
+        "stop" : 1650541357620,
+        "duration" : 5857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.127" ]
+    } ],
+    "uid" : "9eb8118702c0e41e8ec1fc867fc71a5d"
+  } ]
 }
