@@ -3,7 +3,7 @@ const mainPage = require("../pages/main.page.js");
 const signupPage = require("../pages/signup.page.js");
 
 describe('registration test', () => {
-    it('registration from header', async () => {
+    xit('registration from header', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.registerButton.click();
         await expect(browser).toHaveUrlContaining('signup');
@@ -43,7 +43,7 @@ describe('registration test', () => {
         await expect(signupPage.captchaHeader).toBeDisplayedInViewport();
         await signupPage.captchaHeader.saveScreenshot('screenshots/screenshot' + data.getRandomInt() + '.png')
     });
-    it('registration from down block', async () => {
+    xit('registration from down block', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.contributionHeader.scrollIntoView();
 

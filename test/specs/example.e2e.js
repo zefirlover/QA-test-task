@@ -89,7 +89,7 @@ describe('My test application', () => {
 
         console.log('paragraph: ', await paragraph);
     });
-    it('using only xpath locators', async () => {
+    xit('using only xpath locators', async () => {
         await browser.url(`https://webdriver.io/docs/api.html`);
 
         const footerCols = await $(`//div[@class="footer__title"] | div[@class="footer__items"]`); // using or
@@ -104,5 +104,15 @@ describe('My test application', () => {
         for (const el of footerTitles) {
             console.log(await el.getText())
         }
+    });
+    it('using only xpath locators', async () => {
+        await browser.url(`https://github.com/`);
+
+        const navEl = await $('a[href="#home-automate"]');
+        await navEl.scrollIntoView();
+        await navEl.click();
+
+        const header = await $('//*[@id="home-automate"]/div/div[1]/div[1]/h2');
+        await expect(header).toBeDisplayedInViewport();
     });
 });

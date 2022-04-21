@@ -4,7 +4,7 @@ const searchPage = require("../pages/search.page.js");
 const explorePage = require("../pages/explore.page.js");
 
 describe('exploring the repository lists pages', () => {
-    it('open the topics tab test', async () => {
+    xit('open the topics tab test', async () => {
         await browser.url('https://github.com');
 
         await mainPage.exploreHover.click();
@@ -19,7 +19,7 @@ describe('exploring the repository lists pages', () => {
         await expect(topicsPage.topicsH1).toBeDisplayedInViewport();
         console.log('topics header text: ', await topicsPage.topicsH1.getText());
     });
-    it('searching the webdriverio repo test', async () => {
+    xit('searching the webdriverio repo test', async () => {
         await browser.url('https://github.com');
 
         await expect(mainPage.searchInput).toBeDisplayedInViewport();

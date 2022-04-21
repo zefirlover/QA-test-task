@@ -1,7 +1,7 @@
 const mainPage = require("../pages/main.page.js");
 
 describe('hover test', () => {
-    it('test elements displayed while hover the button', async () => {
+    xit('test elements displayed while hover the button', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.productHover.click();
         await expect(mainPage.productDropdown).toBeDisplayedInViewport();

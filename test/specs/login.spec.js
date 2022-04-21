@@ -6,7 +6,7 @@ const loginedPage = require("../pages/logined.page.js");
 const forgotPasswordPage = require("../pages/forgotPassword.page.js");
 
 describe('login test', () => {
-    it('login testing with invalid login', async () => {
+    xit('login testing with invalid login', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
@@ -18,7 +18,7 @@ describe('login test', () => {
         await loginPage.confirmButton.click();
         await expect(loginPage.errorContainer).toBeDisplayed();
     });
-    it('login testing with invalid password', async () => {
+    xit('login testing with invalid password', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
@@ -30,7 +30,7 @@ describe('login test', () => {
         await loginPage.confirmButton.click();
         await expect(loginPage.errorContainer).toBeDisplayed();
     });
-    it('password input clearing feature testing', async () => {
+    xit('password input clearing feature testing', async () => {
         //when you enter the wrong credentials, the webpage automatically delete the value in the password input
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
@@ -46,7 +46,7 @@ describe('login test', () => {
         await signupPage.passwordInput.addValue('HuskTheBest75_');
         await expect(signupPage.passwordInput).toHaveValue('HuskTheBest75_');
     });
-    it('login testing with valid data', async () => {
+    xit('login testing with valid data', async () => {
         await browser.url(`https://github.com/`);
         await mainPage.loginButton.click();
 
@@ -66,7 +66,7 @@ describe('login test', () => {
         await expect(loginedPage.userPanelDropdown).toBeDisplayed();
         await loginedPage.signoutButton.click();
     });
-    it('test the "Forgot password?" ref', async () => {
+    xit('test the "Forgot password?" ref', async () => {
         await browser.url('https://github.com/login');
 
         await expect(loginPage.forgotPasswordRef).toBeDisplayedInViewport();

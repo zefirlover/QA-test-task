@@ -22,14 +22,14 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.js',
-        // './test/specs/example.e2e.js',
-        './test/specs/registration.spec.js',
-        './test/specs/login.spec.js',
-        './test/specs/hovers.spec.js',
-        './test/specs/pricingPlanSignup.spec.js',
-        './test/specs/repos.spec.js',
-        './test/specs/enterprisePlans.spec.js',
-        './test/specs/career.spec.js'
+        './test/specs/example.e2e.js',
+        // './test/specs/registration.spec.js',
+        // './test/specs/login.spec.js',
+        // './test/specs/hovers.spec.js',
+        // './test/specs/pricingPlanSignup.spec.js',
+        // './test/specs/repos.spec.js',
+        // './test/specs/enterprisePlans.spec.js',
+        // './test/specs/career.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -140,7 +140,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
 
     

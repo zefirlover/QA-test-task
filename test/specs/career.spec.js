@@ -2,7 +2,7 @@ const careersPage = require("../pages/careers.page.js");
 const mainPage = require("../pages/main.page.js");
 
 describe('testing the career page output', () => {
-    it('testing open positions output on the career page', async () => {
+    xit('testing open positions output on the career page', async () => {
         await browser.url('https://github.com');
 
         await mainPage.careerRef.scrollIntoView();
