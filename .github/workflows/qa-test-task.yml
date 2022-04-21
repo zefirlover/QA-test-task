@@ -47,7 +47,7 @@ jobs:
           API_TOKEN_GITHUB: ${{'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'}}
         with:
           source-directory: 'docs'
-          destination-github-username: zefirlover # Your username
-          destination-repository-name: QA-test-task # Name of your repo
+          destination-github-username: 'zefirlover' # Your username
+          destination-repository-name: 'QA-test-task' # Name of your repo
           user-email: ibodikmushta@gmail.com # Your email
           target-branch: main 
