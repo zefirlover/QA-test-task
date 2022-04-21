@@ -1,9 +1,8 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "using only xpath locators",
-    "uid" : "f4cf4e7ad185f488",
+    "uid" : "1847eb652595d73b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -20,29 +19,12 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "second task",
-    "uid" : "3be1fc32eeb614",
+    "uid" : "48f9a12fe3dc69a2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650547919447,
-      "stop" : 1650547919447,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "first task",
-    "uid" : "56e0c4781aa24e5b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650547919447,
-      "stop" : 1650547919447,
+      "start" : 1650548332929,
+      "stop" : 1650548332929,
       "duration" : 0
     },
     "flaky" : false,
@@ -54,12 +36,29 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "41af7819046f3f47",
+    "uid" : "8bd4c81ccce7ce3d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650547919448,
-      "stop" : 1650547919448,
+      "start" : 1650548332929,
+      "stop" : 1650548332929,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "first task",
+    "uid" : "971f7a3ab8e75b0b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650548332929,
+      "stop" : 1650548332929,
       "duration" : 0
     },
     "flaky" : false,
@@ -71,13 +70,13 @@
     "parameters" : [ ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "d1bb8e7bc667a2c6",
+    "uid" : "f0013bbaa5fbf36b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650547919448,
-      "stop" : 1650547923614,
-      "duration" : 4166
+      "start" : 1650548332929,
+      "stop" : 1650548338121,
+      "duration" : 5192
     },
     "flaky" : false,
     "newFailed" : false,
@@ -86,5 +85,6 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-100.0.4896.75" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }
