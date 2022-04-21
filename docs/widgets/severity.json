@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "uid" : "66252dff33118dc3",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1f5bafa3f8da5627",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650541351763,
+    "stop" : 1650541357620,
+    "duration" : 5857
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6994baf962471748",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ead188859398fe2",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650541351760,
+    "stop" : 1650541351761,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
