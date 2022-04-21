@@ -1,11 +1,11 @@
 {
-  "uid" : "5fb25e100427724f",
-  "name" : "using css and xpath locators",
-  "fullName" : "My test application.using css and xpath locators",
-  "historyId" : "17311d7bf55046b7876164f21ebf1273",
+  "uid" : "64548a4a25680d10",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650557581977,
-    "stop" : 1650557581977,
+    "start" : 1650562232104,
+    "stop" : 1650562232104,
     "duration" : 0
   },
   "description" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 2,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -29,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using css and xpath locators"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -44,7 +44,16 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "cd0105f8d1876f50",
+      "uid" : "c5afaf66233e237",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650559183672,
+        "stop" : 1650559183672,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c03c6735aab7d6b",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -64,18 +73,18 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "6994baf962471748",
+        "uid" : "4b49649cf2c11a73",
         "status" : "skipped",
         "statusDetails" : "Test ignored",
         "time" : {
-          "start" : 1650541351762,
-          "stop" : 1650541351762,
+          "start" : 1650559183672,
+          "stop" : 1650559183672,
           "duration" : 0
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "5fb25e100427724f.json",
+  "source" : "64548a4a25680d10.json",
   "parameterValues" : [ ]
 }
