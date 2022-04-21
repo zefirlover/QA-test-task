@@ -43,12 +43,11 @@ jobs:
       - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
-#        env:
-#          API_TOKEN_GITHUB: ${{'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'}}
+        env:
+          API_TOKEN_GITHUB: ${{'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'}}
         with:
           source-directory: 'docs'
-          access-token: ${{'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'}}
-          destination-github-username: 'zefirlover' # Your username
-          destination-repository-name: 'QA-test-task' # Name of your repo
-          user-email: 'ibodikmushta@gmail.com' # Your email
+          destination-github-username: zefirlover # Your username
+          destination-repository-name: QA-test-task # Name of your repo
+          user-email: ibodikmushta@gmail.com # Your email
           target-branch: main 
