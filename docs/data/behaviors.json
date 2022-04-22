@@ -1,9 +1,8 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "using only xpath locators",
-    "uid" : "9eebca3a32770b27",
+    "uid" : "4e50b447cbc2c357",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -20,12 +19,12 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "second task",
-    "uid" : "a691824b0e527919",
+    "uid" : "611859dcf315ee36",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625777617,
-      "stop" : 1650625777617,
+      "start" : 1650626095088,
+      "stop" : 1650626095088,
       "duration" : 0
     },
     "flaky" : false,
@@ -37,12 +36,29 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "8a705e22a8830952",
+    "uid" : "f226bad9758df296",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625777617,
-      "stop" : 1650625777617,
+      "start" : 1650626095088,
+      "stop" : 1650626095088,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "first task",
+    "uid" : "cf169d92ffe40e20",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650626095088,
+      "stop" : 1650626095088,
       "duration" : 0
     },
     "flaky" : false,
@@ -54,13 +70,13 @@
     "parameters" : [ ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "64e1a50856f51d32",
+    "uid" : "405437a8dfb2288d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625777617,
-      "stop" : 1650625780890,
-      "duration" : 3273
+      "start" : 1650626095089,
+      "stop" : 1650626098545,
+      "duration" : 3456
     },
     "flaky" : false,
     "newFailed" : false,
@@ -69,22 +85,6 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-100.0.4896.75" ]
-  }, {
-    "name" : "first task",
-    "uid" : "a8bdcd7eb8af3825",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650625777617,
-      "stop" : 1650625777617,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "a8bdcd7eb8af3825",
-  "name" : "first task",
-  "fullName" : "My test application.first task",
-  "historyId" : "cd856c3d625fe504f51e5a5ff825f7c2",
+  "uid" : "f226bad9758df296",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "17311d7bf55046b7876164f21ebf1273",
   "time" : {
-    "start" : 1650625777617,
-    "stop" : 1650625777617,
+    "start" : 1650626095088,
+    "stop" : 1650626095088,
     "duration" : 0
   },
   "description" : "",
@@ -29,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "first task"
+    "value" : "using css and xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -44,22 +44,22 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "9b34cdaad9b2e2cf",
+      "uid" : "ed14a9c7f28aa798",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650559183671,
-        "stop" : 1650559183671,
+        "start" : 1650559183672,
+        "stop" : 1650559183672,
         "duration" : 0
       }
     }, {
-      "uid" : "46f2c282ab858c97",
+      "uid" : "2d55f4bd93bed73",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351760,
-        "stop" : 1650541351761,
-        "duration" : 1
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
       }
     } ],
     "categories" : [ ],
@@ -73,18 +73,18 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "c594842c0fc1b04f",
+        "uid" : "b27cf6a9a46aa581",
         "status" : "skipped",
         "statusDetails" : "Test ignored",
         "time" : {
-          "start" : 1650559183671,
-          "stop" : 1650559183671,
+          "start" : 1650559183672,
+          "stop" : 1650559183672,
           "duration" : 0
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "a8bdcd7eb8af3825.json",
+  "source" : "f226bad9758df296.json",
   "parameterValues" : [ ]
 }
