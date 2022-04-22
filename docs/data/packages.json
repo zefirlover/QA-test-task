@@ -1,10 +1,11 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "My test application",
     "children" : [ {
       "name" : "using only xpath locators",
-      "uid" : "43513dfd90c7ee6b",
+      "uid" : "182bcb5b595d3ed3",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
@@ -20,13 +21,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.127" ]
     }, {
-      "name" : "using css and xpath locators",
-      "uid" : "1943f37671a2674f",
+      "name" : "first task",
+      "uid" : "f86fc72cb50f576a",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624231530,
-        "stop" : 1650624231530,
+        "start" : 1650624569608,
+        "stop" : 1650624569608,
         "duration" : 0
       },
       "flaky" : false,
@@ -37,13 +38,30 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "first task",
-      "uid" : "74208fec436df5e6",
+      "name" : "second task",
+      "uid" : "255f630b273bd581",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624231530,
-        "stop" : 1650624231530,
+        "start" : 1650624569609,
+        "stop" : 1650624569609,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "using css and xpath locators",
+      "uid" : "47fbcb3778171a5e",
+      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650624569609,
+        "stop" : 1650624569609,
         "duration" : 0
       },
       "flaky" : false,
@@ -55,13 +73,13 @@
       "parameters" : [ ]
     }, {
       "name" : "using only xpath locators",
-      "uid" : "d423a2fcf1fcbc67",
+      "uid" : "a2ad985dfb702688",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624231530,
-        "stop" : 1650624235020,
-        "duration" : 3490
+        "start" : 1650624569609,
+        "stop" : 1650624572682,
+        "duration" : 3073
       },
       "flaky" : false,
       "newFailed" : false,
@@ -70,25 +88,7 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
-    }, {
-      "name" : "second task",
-      "uid" : "3050b9c559ed362",
-      "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650624231530,
-        "stop" : 1650624231530,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
     } ],
     "uid" : "9eb8118702c0e41e8ec1fc867fc71a5d"
-  } ],
-  "name" : "packages"
+  } ]
 }
