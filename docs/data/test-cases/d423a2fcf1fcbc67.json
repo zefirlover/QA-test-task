@@ -1,12 +1,12 @@
 {
-  "uid" : "d1a0fb8679d1353d",
+  "uid" : "d423a2fcf1fcbc67",
   "name" : "using only xpath locators",
   "fullName" : "My test application.using only xpath locators",
   "historyId" : "ce1ebb5654fa0b1f67075a6b2546b077",
   "time" : {
-    "start" : 1650624106945,
-    "stop" : 1650624110582,
-    "duration" : 3637
+    "start" : 1650624231530,
+    "stop" : 1650624235020,
+    "duration" : 3490
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -59,6 +59,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d1a0fb8679d1353d.json",
+  "source" : "d423a2fcf1fcbc67.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

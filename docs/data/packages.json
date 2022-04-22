@@ -4,7 +4,7 @@
     "name" : "My test application",
     "children" : [ {
       "name" : "using only xpath locators",
-      "uid" : "8167f4c2d1d9881",
+      "uid" : "43513dfd90c7ee6b",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
@@ -20,13 +20,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.127" ]
     }, {
-      "name" : "first task",
-      "uid" : "72808bd456cc6ba8",
+      "name" : "using css and xpath locators",
+      "uid" : "1943f37671a2674f",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624106945,
-        "stop" : 1650624106945,
+        "start" : 1650624231530,
+        "stop" : 1650624231530,
         "duration" : 0
       },
       "flaky" : false,
@@ -37,13 +37,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "using css and xpath locators",
-      "uid" : "c76417db0b93293a",
+      "name" : "first task",
+      "uid" : "74208fec436df5e6",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624106945,
-        "stop" : 1650624106945,
+        "start" : 1650624231530,
+        "stop" : 1650624231530,
         "duration" : 0
       },
       "flaky" : false,
@@ -55,13 +55,13 @@
       "parameters" : [ ]
     }, {
       "name" : "using only xpath locators",
-      "uid" : "d1a0fb8679d1353d",
+      "uid" : "d423a2fcf1fcbc67",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624106945,
-        "stop" : 1650624110582,
-        "duration" : 3637
+        "start" : 1650624231530,
+        "stop" : 1650624235020,
+        "duration" : 3490
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,12 +72,12 @@
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
       "name" : "second task",
-      "uid" : "52d15c89a0fe21bf",
+      "uid" : "3050b9c559ed362",
       "parentUid" : "9eb8118702c0e41e8ec1fc867fc71a5d",
       "status" : "skipped",
       "time" : {
-        "start" : 1650624106945,
-        "stop" : 1650624106945,
+        "start" : 1650624231530,
+        "stop" : 1650624231530,
         "duration" : 0
       },
       "flaky" : false,

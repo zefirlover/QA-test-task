@@ -1,50 +1,50 @@
 [ {
-  "uid" : "72808bd456cc6ba8",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650624106945,
-    "stop" : 1650624106945,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "c76417db0b93293a",
-  "name" : "using css and xpath locators",
-  "time" : {
-    "start" : 1650624106945,
-    "stop" : 1650624106945,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d1a0fb8679d1353d",
-  "name" : "using only xpath locators",
-  "time" : {
-    "start" : 1650624106945,
-    "stop" : 1650624110582,
-    "duration" : 3637
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "52d15c89a0fe21bf",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650624106945,
-    "stop" : 1650624106945,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "8167f4c2d1d9881",
+  "uid" : "43513dfd90c7ee6b",
   "name" : "using only xpath locators",
   "time" : {
     "start" : 1650559183672,
     "stop" : 1650559196444,
     "duration" : 12772
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1943f37671a2674f",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650624231530,
+    "stop" : 1650624231530,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "74208fec436df5e6",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650624231530,
+    "stop" : 1650624231530,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d423a2fcf1fcbc67",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650624231530,
+    "stop" : 1650624235020,
+    "duration" : 3490
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3050b9c559ed362",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650624231530,
+    "stop" : 1650624231530,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
