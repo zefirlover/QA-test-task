@@ -1,0 +1,97 @@
+{
+  "uid" : "fe254ccec948e68c",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "4855e21284a3bbc8d02ffec3586da880",
+  "time" : {
+    "start" : 1650635997065,
+    "stop" : 1650636000175,
+    "duration" : 3110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5502731c2ab59857",
+      "name" : "Screenshot",
+      "source" : "5502731c2ab59857.png",
+      "type" : "image/png",
+      "size" : 3686
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My test application"
+  }, {
+    "name" : "testClass",
+    "value" : "My test application"
+  }, {
+    "name" : "testMethod",
+    "value" : "second task"
+  }, {
+    "name" : "package",
+    "value" : "My test application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b2285bc324774d6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650635997065,
+          "stop" : 1650636000175,
+          "duration" : 3110
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fe254ccec948e68c.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
