@@ -1,16 +1,18 @@
 {
-  "uid" : "78fc081ca1fc5d5c",
-  "name" : "first task",
-  "fullName" : "My test application.first task",
-  "historyId" : "51bacfd0de7af344977ecbc463370caf",
+  "uid" : "633be0b96f578b52",
+  "name" : "using only xpath locators",
+  "fullName" : "My test application.using only xpath locators",
+  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
   "time" : {
-    "start" : 1650641403736,
-    "stop" : 1650641413000,
-    "duration" : 9264
+    "start" : 1650541351763,
+    "stop" : 1650541357620,
+    "duration" : 5857
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -36,7 +38,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "first task"
+    "value" : "using only xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -46,17 +48,15 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-100.0.4896.75"
+    "value" : "chrome-100.0.4896.127"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "78fc081ca1fc5d5c.json",
-  "parameterValues" : [ "chrome-100.0.4896.75" ]
+  "source" : "633be0b96f578b52.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "e967b1e0b0f62b24",
-  "name" : "first task",
-  "fullName" : "My test application.first task",
-  "historyId" : "49e48198f4064fe1a43c7f1f946c3bcc",
+  "uid" : "332e888903e11ab4",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "89fe89edc8a3306171553dd71c8dabb4",
   "time" : {
-    "start" : 1650641177185,
-    "stop" : 1650641192288,
-    "duration" : 15103
+    "start" : 1650641196966,
+    "stop" : 1650641197886,
+    "duration" : 920
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "first task"
+    "value" : "using css and xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -54,20 +54,20 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "cb4789ef49e38bc0",
+      "uid" : "d0d48efe360a0576",
       "status" : "passed",
       "time" : {
-        "start" : 1650638350524,
-        "stop" : 1650638364324,
-        "duration" : 13800
+        "start" : 1650638367625,
+        "stop" : 1650638368735,
+        "duration" : 1110
       }
     }, {
-      "uid" : "b0aee0953f232761",
+      "uid" : "21d26d20ad126ee9",
       "status" : "passed",
       "time" : {
-        "start" : 1650635982348,
-        "stop" : 1650635997064,
-        "duration" : 14716
+        "start" : 1650636000176,
+        "stop" : 1650636001393,
+        "duration" : 1217
       }
     } ],
     "categories" : [ ],
@@ -81,17 +81,17 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "7f73d5e1f3e8ee0b",
+        "uid" : "91c87e2bd2219406",
         "status" : "passed",
         "time" : {
-          "start" : 1650641177185,
-          "stop" : 1650641192288,
-          "duration" : 15103
+          "start" : 1650641196966,
+          "stop" : 1650641197886,
+          "duration" : 920
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "e967b1e0b0f62b24.json",
+  "source" : "332e888903e11ab4.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

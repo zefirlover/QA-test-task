@@ -1,12 +1,12 @@
 {
-  "uid" : "a93641792d6cc16",
+  "uid" : "4b02098e598fa4cb",
   "name" : "second task",
   "fullName" : "My test application.second task",
   "historyId" : "4855e21284a3bbc8d02ffec3586da880",
   "time" : {
-    "start" : 1650641192288,
-    "stop" : 1650641196966,
-    "duration" : 4678
+    "start" : 1650638364325,
+    "stop" : 1650638367625,
+    "duration" : 3300
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,16 +15,16 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7e7585698a5885ff",
+      "uid" : "330e0853a2933a8c",
       "name" : "Screenshot",
-      "source" : "7e7585698a5885ff.png",
+      "source" : "330e0853a2933a8c.png",
       "type" : "image/png",
       "size" : 3686
     } ],
@@ -65,49 +65,12 @@
     "value" : "chrome-100.0.4896.127"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "364614fed75a0115",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650638364325,
-        "stop" : 1650638367625,
-        "duration" : 3300
-      }
-    }, {
-      "uid" : "a106811495db4a93",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650635997065,
-        "stop" : 1650636000175,
-        "duration" : 3110
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "33758d2d85a4cfef",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650641192288,
-          "stop" : 1650641196966,
-          "duration" : 4678
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "a93641792d6cc16.json",
+  "source" : "4b02098e598fa4cb.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

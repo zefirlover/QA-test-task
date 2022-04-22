@@ -1,9 +1,8 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "first task",
-    "uid" : "3c15ce7965aa959c",
+    "uid" : "7ef81f94ed01a645",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -19,8 +18,8 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "second task",
-    "uid" : "f133c108af3c0da3",
+    "name" : "using css and xpath locators",
+    "uid" : "63afe1d1d862c43f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -36,8 +35,8 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "using css and xpath locators",
-    "uid" : "5f323d28912042be",
+    "name" : "second task",
+    "uid" : "ef8bba0034f192bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -54,7 +53,7 @@
     "parameters" : [ ]
   }, {
     "name" : "first task",
-    "uid" : "e967b1e0b0f62b24",
+    "uid" : "984d1d1d36cc18aa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -71,7 +70,7 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "second task",
-    "uid" : "a93641792d6cc16",
+    "uid" : "7c14086eaa7a9738",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -88,7 +87,7 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "b106a4a87fb577e4",
+    "uid" : "332e888903e11ab4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -105,7 +104,7 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "87a61eded6f108df",
+    "uid" : "b7bc71a1d9ccdb48",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -122,13 +121,13 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "first task",
-    "uid" : "78fc081ca1fc5d5c",
+    "uid" : "f2b62dd33314d41b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650641403736,
-      "stop" : 1650641413000,
-      "duration" : 9264
+      "start" : 1650641637305,
+      "stop" : 1650641647236,
+      "duration" : 9931
     },
     "flaky" : false,
     "newFailed" : false,
@@ -139,13 +138,13 @@
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "second task",
-    "uid" : "e47a7498e618914",
+    "uid" : "e30663616cf891c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650641413000,
-      "stop" : 1650641414498,
-      "duration" : 1498
+      "start" : 1650641647237,
+      "stop" : 1650641649242,
+      "duration" : 2005
     },
     "flaky" : false,
     "newFailed" : false,
@@ -156,13 +155,13 @@
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "889121caa6a6e378",
+    "uid" : "477606eb87669c62",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650641414499,
-      "stop" : 1650641415013,
-      "duration" : 514
+      "start" : 1650641649242,
+      "stop" : 1650641650160,
+      "duration" : 918
     },
     "flaky" : false,
     "newFailed" : false,
@@ -173,13 +172,13 @@
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "7b131f2d0ea7b140",
+    "uid" : "feb7eb984f730cab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650641415013,
-      "stop" : 1650641423259,
-      "duration" : 8246
+      "start" : 1650641650160,
+      "stop" : 1650641659035,
+      "duration" : 8875
     },
     "flaky" : false,
     "newFailed" : false,
@@ -188,5 +187,6 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-100.0.4896.75" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }

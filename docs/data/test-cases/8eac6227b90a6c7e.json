@@ -1,18 +1,16 @@
 {
-  "uid" : "1b5102700e264eaf",
-  "name" : "using only xpath locators",
-  "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
+  "uid" : "8eac6227b90a6c7e",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "4855e21284a3bbc8d02ffec3586da880",
   "time" : {
-    "start" : 1650559183672,
-    "stop" : 1650559196444,
-    "duration" : 12772
+    "start" : 1650635997065,
+    "stop" : 1650636000175,
+    "duration" : 3110
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -20,6 +18,22 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29822c7abee0f9c7",
+      "name" : "Screenshot",
+      "source" : "29822c7abee0f9c7.png",
+      "type" : "image/png",
+      "size" : 3686
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -38,7 +52,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using only xpath locators"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -57,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1b5102700e264eaf.json",
+  "source" : "8eac6227b90a6c7e.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }
