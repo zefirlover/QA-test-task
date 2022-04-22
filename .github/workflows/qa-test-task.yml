@@ -44,14 +44,14 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{'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'}}
+          PERSONAL_TOKEN: ${{'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'}}
           PUBLISH_BRANCH: gh-paged
           PUBLISH_DIR: docs
 #      - name: Pushes docs to another repository
 #        uses: cpina/github-action-push-to-another-repository@v1.3
 #        if: always()
 #        env:
-#          API_TOKEN_GITHUB: ${{'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'}}
+#          API_TOKEN_GITHUB: ${{'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'}}
 #        with:
 #          source-directory: 'docs'
 #          destination-github-username: 'zefirlover'
