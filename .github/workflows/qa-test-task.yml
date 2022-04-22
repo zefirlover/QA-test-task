@@ -52,7 +52,7 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
         env:
-          API_TOKEN_GITHUB: ${{'zefirlover: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'}}
+          API_TOKEN_GITHUB: ${{'zefirlover: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'}}
         with:
           source-directory: 'docs'
           destination-github-username: 'zefirlover'
