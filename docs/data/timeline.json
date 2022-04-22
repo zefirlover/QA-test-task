@@ -1,13 +1,13 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "first task",
-    "uid" : "9d44a4effbecb93b",
+    "name" : "using css and xpath locators",
+    "uid" : "b5eb2919d4cb715c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650559183671,
-      "stop" : 1650559183671,
+      "start" : 1650559183672,
+      "stop" : 1650559183672,
       "duration" : 0
     },
     "flaky" : false,
@@ -19,7 +19,7 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "40b69edf4b2ba99e",
+    "uid" : "f0adeb8a8053f87b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -35,10 +35,129 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "second task",
+    "uid" : "b6e978f4386ef242",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650559183672,
+      "stop" : 1650559183672,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "first task",
+    "uid" : "1c50dafb7dfc0e0a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650559183671,
+      "stop" : 1650559183671,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "second task",
+    "uid" : "56aad7feb770bd39",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650541351762,
+      "stop" : 1650541351762,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "second task",
+    "uid" : "bfa3df2d08947e5b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650625672218,
+      "stop" : 1650625672218,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "using css and xpath locators",
+    "uid" : "b9e2b6a1f3ec5d07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650625672218,
+      "stop" : 1650625672218,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "first task",
+    "uid" : "589f2614f2ff6276",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650541351760,
+      "stop" : 1650541351761,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "0-0",
     "children" : [ {
       "name" : "using only xpath locators",
-      "uid" : "fd80413408ea3dc3",
+      "uid" : "9d3de3d673a8f7ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650625672218,
+        "stop" : 1650625675734,
+        "duration" : 3516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "using only xpath locators",
+      "uid" : "9191dced7271ac3a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "skipped",
       "time" : {
@@ -55,7 +174,7 @@
       "parameters" : [ "chrome-100.0.4896.127" ]
     }, {
       "name" : "using only xpath locators",
-      "uid" : "e52cd0c060e8dd5",
+      "uid" : "9f914c729592df01",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "skipped",
       "time" : {
@@ -70,135 +189,16 @@
       "retriesCount" : 1,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.127" ]
-    }, {
-      "name" : "using only xpath locators",
-      "uid" : "632aaa711faf2c08",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650625479146,
-        "stop" : 1650625482730,
-        "duration" : 3584
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-100.0.4896.75" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
-    "name" : "second task",
-    "uid" : "70985f9ee330e292",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650559183672,
-      "stop" : 1650559183672,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "second task",
-    "uid" : "fb1e5ffff27cf823",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650541351762,
-      "stop" : 1650541351762,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "first task",
-    "uid" : "b9eb956fd169b254",
+    "uid" : "9d8dc56edbe14727",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625479146,
-      "stop" : 1650625479146,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "using css and xpath locators",
-    "uid" : "d102b5e16a1317c0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650625479146,
-      "stop" : 1650625479146,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "using css and xpath locators",
-    "uid" : "ac156211b9719a1b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650559183672,
-      "stop" : 1650559183672,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "first task",
-    "uid" : "a0f7662aa9650ede",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650541351760,
-      "stop" : 1650541351761,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "second task",
-    "uid" : "6866436c37595c26",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1650625479146,
-      "stop" : 1650625479146,
+      "start" : 1650625672218,
+      "stop" : 1650625672218,
       "duration" : 0
     },
     "flaky" : false,

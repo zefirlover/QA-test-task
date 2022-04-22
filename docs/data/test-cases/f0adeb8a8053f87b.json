@@ -1,11 +1,11 @@
 {
-  "uid" : "70985f9ee330e292",
-  "name" : "second task",
-  "fullName" : "My test application.second task",
-  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
+  "uid" : "f0adeb8a8053f87b",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "17311d7bf55046b7876164f21ebf1273",
   "time" : {
-    "start" : 1650559183672,
-    "stop" : 1650559183672,
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
     "duration" : 0
   },
   "description" : "",
@@ -29,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "second task"
+    "value" : "using css and xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "70985f9ee330e292.json",
+  "source" : "f0adeb8a8053f87b.json",
   "parameterValues" : [ ]
 }
