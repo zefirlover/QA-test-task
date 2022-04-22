@@ -1,12 +1,12 @@
 {
-  "uid" : "368e2d5b4b7c5041",
-  "name" : "second task",
-  "fullName" : "My test application.second task",
-  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
+  "uid" : "1b5102700e264eaf",
+  "name" : "using only xpath locators",
+  "fullName" : "My test application.using only xpath locators",
+  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
   "time" : {
     "start" : 1650559183672,
-    "stop" : 1650559183672,
-    "duration" : 0
+    "stop" : 1650559196444,
+    "duration" : 12772
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,6 +22,15 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -29,7 +38,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "second task"
+    "value" : "using only xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -37,7 +46,10 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
   "links" : [ ],
   "hidden" : true,
   "retry" : true,
@@ -45,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "368e2d5b4b7c5041.json",
-  "parameterValues" : [ ]
+  "source" : "1b5102700e264eaf.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

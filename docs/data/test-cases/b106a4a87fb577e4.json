@@ -1,12 +1,12 @@
 {
-  "uid" : "125fd91752a77ec7",
+  "uid" : "b106a4a87fb577e4",
   "name" : "using css and xpath locators",
   "fullName" : "My test application.using css and xpath locators",
   "historyId" : "89fe89edc8a3306171553dd71c8dabb4",
   "time" : {
-    "start" : 1650638367625,
-    "stop" : 1650638368735,
-    "duration" : 1110
+    "start" : 1650641196966,
+    "stop" : 1650641197886,
+    "duration" : 920
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 2,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -54,7 +54,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "bd9d8374beaef9bd",
+      "uid" : "3ed81382c86cb72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650638367625,
+        "stop" : 1650638368735,
+        "duration" : 1110
+      }
+    }, {
+      "uid" : "1f9bda0216ca42e5",
       "status" : "passed",
       "time" : {
         "start" : 1650636000176,
@@ -63,8 +71,27 @@
       }
     } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "91c87e2bd2219406",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650641196966,
+          "stop" : 1650641197886,
+          "duration" : 920
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "125fd91752a77ec7.json",
+  "source" : "b106a4a87fb577e4.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

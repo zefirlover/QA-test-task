@@ -1,12 +1,12 @@
 {
-  "uid" : "2d62fa4c9c3c1dfe",
+  "uid" : "87a61eded6f108df",
   "name" : "using only xpath locators",
   "fullName" : "My test application.using only xpath locators",
   "historyId" : "ab933b157ec7eec20a575751e4170b4f",
   "time" : {
-    "start" : 1650638368736,
-    "stop" : 1650638379108,
-    "duration" : 10372
+    "start" : 1650641197886,
+    "stop" : 1650641208255,
+    "duration" : 10369
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 4,
+  "retriesCount" : 5,
   "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -54,7 +54,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "ed79cd24161fa04b",
+      "uid" : "e8753652e90218d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650638368736,
+        "stop" : 1650638379108,
+        "duration" : 10372
+      }
+    }, {
+      "uid" : "8ab6363652409709",
       "status" : "passed",
       "time" : {
         "start" : 1650636001393,
@@ -62,7 +70,7 @@
         "duration" : 10756
       }
     }, {
-      "uid" : "43002d883b0a1ef8",
+      "uid" : "9cfbed671df2f64b",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -71,7 +79,7 @@
         "duration" : 7135
       }
     }, {
-      "uid" : "82004f0e3883eb6f",
+      "uid" : "1b5102700e264eaf",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -80,7 +88,7 @@
         "duration" : 12772
       }
     }, {
-      "uid" : "be94cc9d8e826a20",
+      "uid" : "180dfa13f6b15595",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -90,8 +98,27 @@
       }
     } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3554de50746fefab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650641197886,
+          "stop" : 1650641208255,
+          "duration" : 10369
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "2d62fa4c9c3c1dfe.json",
+  "source" : "87a61eded6f108df.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

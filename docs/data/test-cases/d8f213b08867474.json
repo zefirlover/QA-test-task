@@ -1,16 +1,18 @@
 {
-  "uid" : "bd9d8374beaef9bd",
-  "name" : "using css and xpath locators",
-  "fullName" : "My test application.using css and xpath locators",
-  "historyId" : "89fe89edc8a3306171553dd71c8dabb4",
+  "uid" : "d8f213b08867474",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650636000176,
-    "stop" : 1650636001393,
-    "duration" : 1217
+    "start" : 1650559183672,
+    "stop" : 1650559183672,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -20,15 +22,6 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "framework",
-    "value" : "wdio"
-  }, {
-    "name" : "language",
-    "value" : "javascript"
-  }, {
-    "name" : "thread",
-    "value" : "0-0"
-  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -36,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using css and xpath locators"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -44,10 +37,7 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ {
-    "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : true,
   "retry" : true,
@@ -55,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bd9d8374beaef9bd.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "d8f213b08867474.json",
+  "parameterValues" : [ ]
 }
