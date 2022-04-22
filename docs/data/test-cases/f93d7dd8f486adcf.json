@@ -1,11 +1,11 @@
 {
-  "uid" : "d15c4ac76582022c",
+  "uid" : "f93d7dd8f486adcf",
   "name" : "using css and xpath locators",
   "fullName" : "My test application.using css and xpath locators",
   "historyId" : "17311d7bf55046b7876164f21ebf1273",
   "time" : {
-    "start" : 1650541351762,
-    "stop" : 1650541351762,
+    "start" : 1650559183672,
+    "stop" : 1650559183672,
     "duration" : 0
   },
   "description" : "",
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d15c4ac76582022c.json",
+  "source" : "f93d7dd8f486adcf.json",
   "parameterValues" : [ ]
 }

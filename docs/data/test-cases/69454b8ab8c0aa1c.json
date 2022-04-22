@@ -1,5 +1,5 @@
 {
-  "uid" : "366557e6c10bf9d6",
+  "uid" : "69454b8ab8c0aa1c",
   "name" : "using css and xpath locators",
   "fullName" : "My test application.using css and xpath locators",
   "historyId" : "17311d7bf55046b7876164f21ebf1273",
@@ -44,7 +44,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "2b656a7194bb8f35",
+      "uid" : "f93d7dd8f486adcf",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -53,7 +53,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "d15c4ac76582022c",
+      "uid" : "13cecf3ca35697ef",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -63,28 +63,8 @@
       }
     } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "738d57325a8d3ad",
-        "status" : "skipped",
-        "statusDetails" : "Test ignored",
-        "time" : {
-          "start" : 1650635932297,
-          "stop" : 1650635932297,
-          "duration" : 0
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "366557e6c10bf9d6.json",
+  "source" : "69454b8ab8c0aa1c.json",
   "parameterValues" : [ ]
 }

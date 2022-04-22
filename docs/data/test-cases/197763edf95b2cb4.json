@@ -1,11 +1,11 @@
 {
-  "uid" : "a88d35a47de8f612",
-  "name" : "first task",
-  "fullName" : "My test application.first task",
-  "historyId" : "cd856c3d625fe504f51e5a5ff825f7c2",
+  "uid" : "197763edf95b2cb4",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650635932296,
-    "stop" : 1650635932296,
+    "start" : 1650635932297,
+    "stop" : 1650635932297,
     "duration" : 0
   },
   "description" : "",
@@ -29,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "first task"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -44,47 +44,27 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "7780b3676d4dc4e4",
+      "uid" : "84bb77e49a359e6a",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650559183671,
-        "stop" : 1650559183671,
+        "start" : 1650559183672,
+        "stop" : 1650559183672,
         "duration" : 0
       }
     }, {
-      "uid" : "5b2eef32ec50eec3",
+      "uid" : "3007d258a89a26c3",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351760,
-        "stop" : 1650541351761,
-        "duration" : 1
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
       }
     } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "a233878b17273298",
-        "status" : "skipped",
-        "statusDetails" : "Test ignored",
-        "time" : {
-          "start" : 1650635932296,
-          "stop" : 1650635932296,
-          "duration" : 0
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "a88d35a47de8f612.json",
+  "source" : "197763edf95b2cb4.json",
   "parameterValues" : [ ]
 }

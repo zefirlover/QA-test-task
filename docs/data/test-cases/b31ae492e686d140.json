@@ -1,12 +1,12 @@
 {
-  "uid" : "fe254ccec948e68c",
+  "uid" : "b31ae492e686d140",
   "name" : "second task",
   "fullName" : "My test application.second task",
-  "historyId" : "4855e21284a3bbc8d02ffec3586da880",
+  "historyId" : "9fd8be9eefb7f20005149db1dfdf1185",
   "time" : {
-    "start" : 1650635997065,
-    "stop" : 1650636000175,
-    "duration" : 3110
+    "start" : 1650637952675,
+    "stop" : 1650637954217,
+    "duration" : 1542
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5502731c2ab59857",
+      "uid" : "3c20063966910bb2",
       "name" : "Screenshot",
-      "source" : "5502731c2ab59857.png",
+      "source" : "3c20063966910bb2.png",
       "type" : "image/png",
-      "size" : 3686
+      "size" : 4093
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -62,7 +62,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
+    "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -71,27 +71,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "b2285bc324774d6b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650635997065,
-          "stop" : 1650636000175,
-          "duration" : 3110
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "fe254ccec948e68c.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "b31ae492e686d140.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
