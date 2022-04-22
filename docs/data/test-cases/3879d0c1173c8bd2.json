@@ -1,27 +1,34 @@
 {
-  "uid" : "d536035ca61507e2",
+  "uid" : "3879d0c1173c8bd2",
   "name" : "first task",
   "fullName" : "My test application.first task",
-  "historyId" : "cd856c3d625fe504f51e5a5ff825f7c2",
+  "historyId" : "49e48198f4064fe1a43c7f1f946c3bcc",
   "time" : {
-    "start" : 1650635932296,
-    "stop" : 1650635932296,
-    "duration" : 0
+    "start" : 1650638350524,
+    "stop" : 1650638364324,
+    "duration" : 13800
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -37,34 +44,27 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "64f44f4e963611c9",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
+      "uid" : "f35d8ebaf4093693",
+      "status" : "passed",
       "time" : {
-        "start" : 1650559183671,
-        "stop" : 1650559183671,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "950dce2778009051",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1650541351760,
-        "stop" : 1650541351761,
-        "duration" : 1
+        "start" : 1650635982348,
+        "stop" : 1650635997064,
+        "duration" : 14716
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d536035ca61507e2.json",
-  "parameterValues" : [ ]
+  "source" : "3879d0c1173c8bd2.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

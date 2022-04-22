@@ -1,18 +1,16 @@
 {
-  "uid" : "ad317d3ccbe2814e",
-  "name" : "using only xpath locators",
-  "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
+  "uid" : "887606be94079ebf",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "1e8c0eff05231b45d7fe96bf83f2269f",
   "time" : {
-    "start" : 1650541351763,
-    "stop" : 1650541357620,
-    "duration" : 5857
+    "start" : 1650641066456,
+    "stop" : 1650641067039,
+    "duration" : 583
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +36,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using only xpath locators"
+    "value" : "using css and xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -48,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
+    "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ad317d3ccbe2814e.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "887606be94079ebf.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

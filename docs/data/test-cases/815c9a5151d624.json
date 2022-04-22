@@ -1,12 +1,12 @@
 {
-  "uid" : "f9b64984b353dde8",
-  "name" : "using css and xpath locators",
-  "fullName" : "My test application.using css and xpath locators",
-  "historyId" : "1e8c0eff05231b45d7fe96bf83f2269f",
+  "uid" : "815c9a5151d624",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "9fd8be9eefb7f20005149db1dfdf1185",
   "time" : {
-    "start" : 1650638208163,
-    "stop" : 1650638208717,
-    "duration" : 554
+    "start" : 1650641064787,
+    "stop" : 1650641066456,
+    "duration" : 1669
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,6 +18,22 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9de829feb9621b82",
+      "name" : "Screenshot",
+      "source" : "9de829feb9621b82.png",
+      "type" : "image/png",
+      "size" : 4093
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -36,7 +52,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using css and xpath locators"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -57,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f9b64984b353dde8.json",
+  "source" : "815c9a5151d624.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
