@@ -50,4 +50,4 @@ jobs:
           destination-github-username: 'zefirlover'
           destination-repository-name: 'QA-test-task'
           user-email: ibodikmushta@gmail.com
-          target-branch: main
+          target-branch: gh-pages
