@@ -1,50 +1,50 @@
 [ {
-  "uid" : "182bcb5b595d3ed3",
+  "uid" : "11bb48c6cfe535e7",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650624903847,
+    "stop" : 1650624907030,
+    "duration" : 3183
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b9af10309746e3b6",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650624903847,
+    "stop" : 1650624903847,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79f2087a3607f4a6",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650624903847,
+    "stop" : 1650624903847,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "786afcc40a437ec7",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650624903847,
+    "stop" : 1650624903847,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e49c999f14e7170d",
   "name" : "using only xpath locators",
   "time" : {
     "start" : 1650559183672,
     "stop" : 1650559196444,
     "duration" : 12772
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "f86fc72cb50f576a",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650624569608,
-    "stop" : 1650624569608,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "255f630b273bd581",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650624569609,
-    "stop" : 1650624569609,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "47fbcb3778171a5e",
-  "name" : "using css and xpath locators",
-  "time" : {
-    "start" : 1650624569609,
-    "stop" : 1650624569609,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a2ad985dfb702688",
-  "name" : "using only xpath locators",
-  "time" : {
-    "start" : 1650624569609,
-    "stop" : 1650624572682,
-    "duration" : 3073
   },
   "status" : "skipped",
   "severity" : "normal"
