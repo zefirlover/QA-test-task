@@ -1,0 +1,70 @@
+{
+  "uid" : "7ffff550f8fe1018",
+  "name" : "first task",
+  "fullName" : "My test application.first task",
+  "historyId" : "49e48198f4064fe1a43c7f1f946c3bcc",
+  "time" : {
+    "start" : 1650638350524,
+    "stop" : 1650638364324,
+    "duration" : 13800
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My test application"
+  }, {
+    "name" : "testClass",
+    "value" : "My test application"
+  }, {
+    "name" : "testMethod",
+    "value" : "first task"
+  }, {
+    "name" : "package",
+    "value" : "My test application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd55f790f47bfce4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650635982348,
+        "stop" : 1650635997064,
+        "duration" : 14716
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ffff550f8fe1018.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
