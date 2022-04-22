@@ -1,50 +1,50 @@
 [ {
-  "uid" : "bfa3df2d08947e5b",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650625672218,
-    "stop" : 1650625672218,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b9e2b6a1f3ec5d07",
-  "name" : "using css and xpath locators",
-  "time" : {
-    "start" : 1650625672218,
-    "stop" : 1650625672218,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9d3de3d673a8f7ba",
-  "name" : "using only xpath locators",
-  "time" : {
-    "start" : 1650625672218,
-    "stop" : 1650625675734,
-    "duration" : 3516
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9d8dc56edbe14727",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650625672218,
-    "stop" : 1650625672218,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9f914c729592df01",
+  "uid" : "9eebca3a32770b27",
   "name" : "using only xpath locators",
   "time" : {
     "start" : 1650559183672,
     "stop" : 1650559196444,
     "duration" : 12772
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a691824b0e527919",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650625777617,
+    "stop" : 1650625777617,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8a705e22a8830952",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650625777617,
+    "stop" : 1650625777617,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "64e1a50856f51d32",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650625777617,
+    "stop" : 1650625780890,
+    "duration" : 3273
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a8bdcd7eb8af3825",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650625777617,
+    "stop" : 1650625777617,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"

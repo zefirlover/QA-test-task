@@ -1,8 +1,9 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "using only xpath locators",
-    "uid" : "9f914c729592df01",
+    "uid" : "9eebca3a32770b27",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -19,12 +20,12 @@
     "parameters" : [ "chrome-100.0.4896.127" ]
   }, {
     "name" : "second task",
-    "uid" : "bfa3df2d08947e5b",
+    "uid" : "a691824b0e527919",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625672218,
-      "stop" : 1650625672218,
+      "start" : 1650625777617,
+      "stop" : 1650625777617,
       "duration" : 0
     },
     "flaky" : false,
@@ -36,12 +37,12 @@
     "parameters" : [ ]
   }, {
     "name" : "using css and xpath locators",
-    "uid" : "b9e2b6a1f3ec5d07",
+    "uid" : "8a705e22a8830952",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625672218,
-      "stop" : 1650625672218,
+      "start" : 1650625777617,
+      "stop" : 1650625777617,
       "duration" : 0
     },
     "flaky" : false,
@@ -53,13 +54,13 @@
     "parameters" : [ ]
   }, {
     "name" : "using only xpath locators",
-    "uid" : "9d3de3d673a8f7ba",
+    "uid" : "64e1a50856f51d32",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625672218,
-      "stop" : 1650625675734,
-      "duration" : 3516
+      "start" : 1650625777617,
+      "stop" : 1650625780890,
+      "duration" : 3273
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,12 +71,12 @@
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "first task",
-    "uid" : "9d8dc56edbe14727",
+    "uid" : "a8bdcd7eb8af3825",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1650625672218,
-      "stop" : 1650625672218,
+      "start" : 1650625777617,
+      "stop" : 1650625777617,
       "duration" : 0
     },
     "flaky" : false,
@@ -85,6 +86,5 @@
     "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }

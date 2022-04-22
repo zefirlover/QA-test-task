@@ -9,7 +9,7 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "9f914c729592df01",
+      "uid" : "9eebca3a32770b27",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -38,12 +38,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "9d8dc56edbe14727",
+      "uid" : "a8bdcd7eb8af3825",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650625672218,
-        "stop" : 1650625672218,
+        "start" : 1650625777617,
+        "stop" : 1650625777617,
         "duration" : 0
       }
     }, {
@@ -67,13 +67,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d3de3d673a8f7ba",
+      "uid" : "64e1a50856f51d32",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650625672218,
-        "stop" : 1650625675734,
-        "duration" : 3516
+        "start" : 1650625777617,
+        "stop" : 1650625780890,
+        "duration" : 3273
       }
     } ]
   },
@@ -87,12 +87,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "bfa3df2d08947e5b",
+      "uid" : "a691824b0e527919",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650625672218,
-        "stop" : 1650625672218,
+        "start" : 1650625777617,
+        "stop" : 1650625777617,
         "duration" : 0
       }
     }, {
@@ -116,12 +116,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "b9e2b6a1f3ec5d07",
+      "uid" : "8a705e22a8830952",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650625672218,
-        "stop" : 1650625672218,
+        "start" : 1650625777617,
+        "stop" : 1650625777617,
         "duration" : 0
       }
     }, {
