@@ -1,27 +1,34 @@
 {
-  "uid" : "69454b8ab8c0aa1c",
+  "uid" : "f9b64984b353dde8",
   "name" : "using css and xpath locators",
   "fullName" : "My test application.using css and xpath locators",
-  "historyId" : "17311d7bf55046b7876164f21ebf1273",
+  "historyId" : "1e8c0eff05231b45d7fe96bf83f2269f",
   "time" : {
-    "start" : 1650635932297,
-    "stop" : 1650635932297,
-    "duration" : 0
+    "start" : 1650638208163,
+    "stop" : 1650638208717,
+    "duration" : 554
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -37,34 +44,19 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "f93d7dd8f486adcf",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1650559183672,
-        "stop" : 1650559183672,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "13cecf3ca35697ef",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1650541351762,
-        "stop" : 1650541351762,
-        "duration" : 0
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "69454b8ab8c0aa1c.json",
-  "parameterValues" : [ ]
+  "source" : "f9b64984b353dde8.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

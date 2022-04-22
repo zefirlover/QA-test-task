@@ -1,45 +1,5 @@
 [ {
-  "uid" : "e224dfc19d94269c",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650637943772,
-    "stop" : 1650637952675,
-    "duration" : 8903
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8bf612d20f2e9ed2",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650635982348,
-    "stop" : 1650635997064,
-    "duration" : 14716
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "197763edf95b2cb4",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650635932297,
-    "stop" : 1650635932297,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "40a53fe609bab689",
-  "name" : "using css and xpath locators",
-  "time" : {
-    "start" : 1650637954218,
-    "stop" : 1650637954704,
-    "duration" : 486
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "780f986116b40c46",
+  "uid" : "212515ad9baf9568",
   "name" : "using css and xpath locators",
   "time" : {
     "start" : 1650636000176,
@@ -49,47 +9,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de0179d7f239fc92",
-  "name" : "using only xpath locators",
+  "uid" : "f25754ffb381f153",
+  "name" : "second task",
   "time" : {
-    "start" : 1650636001393,
-    "stop" : 1650636012149,
-    "duration" : 10756
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1cb731e96f313431",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650635932296,
-    "stop" : 1650635932296,
+    "start" : 1650635932297,
+    "stop" : 1650635932297,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "b31ae492e686d140",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650637952675,
-    "stop" : 1650637954217,
-    "duration" : 1542
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a5f29a0861dce47",
-  "name" : "second task",
-  "time" : {
-    "start" : 1650635997065,
-    "stop" : 1650636000175,
-    "duration" : 3110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "69454b8ab8c0aa1c",
+  "uid" : "45457c1176c0310a",
   "name" : "using css and xpath locators",
   "time" : {
     "start" : 1650635932297,
@@ -99,12 +29,82 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "bb85b4b16a1e9e02",
+  "uid" : "479965c0e614cb76",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650638206523,
+    "stop" : 1650638208163,
+    "duration" : 1640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d536035ca61507e2",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650635932296,
+    "stop" : 1650635932296,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a164b5958950d171",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650635997065,
+    "stop" : 1650636000175,
+    "duration" : 3110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e210192e856282",
   "name" : "using only xpath locators",
   "time" : {
-    "start" : 1650637954704,
-    "stop" : 1650637963607,
-    "duration" : 8903
+    "start" : 1650638208717,
+    "stop" : 1650638217035,
+    "duration" : 8318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6943fc139968b18",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650638197434,
+    "stop" : 1650638206523,
+    "duration" : 9089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9b64984b353dde8",
+  "name" : "using css and xpath locators",
+  "time" : {
+    "start" : 1650638208163,
+    "stop" : 1650638208717,
+    "duration" : 554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bbceb18a9e4f4bf",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650636001393,
+    "stop" : 1650636012149,
+    "duration" : 10756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "954c13eb0233abfc",
+  "name" : "first task",
+  "time" : {
+    "start" : 1650635982348,
+    "stop" : 1650635997064,
+    "duration" : 14716
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,18 +1,16 @@
 {
-  "uid" : "aabb538ac8ed41a2",
-  "name" : "using only xpath locators",
-  "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
+  "uid" : "954c13eb0233abfc",
+  "name" : "first task",
+  "fullName" : "My test application.first task",
+  "historyId" : "49e48198f4064fe1a43c7f1f946c3bcc",
   "time" : {
-    "start" : 1650635932297,
-    "stop" : 1650635939432,
-    "duration" : 7135
+    "start" : 1650635982348,
+    "stop" : 1650635997064,
+    "duration" : 14716
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +36,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using only xpath locators"
+    "value" : "first task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -51,12 +49,14 @@
     "value" : "chrome-100.0.4896.127"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aabb538ac8ed41a2.json",
+  "source" : "954c13eb0233abfc.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

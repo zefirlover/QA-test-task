@@ -1,12 +1,12 @@
 {
-  "uid" : "43d7bc387c0eeab3",
-  "name" : "using only xpath locators",
-  "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
+  "uid" : "ed2e4926e11da699",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "17311d7bf55046b7876164f21ebf1273",
   "time" : {
-    "start" : 1650541351763,
-    "stop" : 1650541357620,
-    "duration" : 5857
+    "start" : 1650541351762,
+    "stop" : 1650541351762,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,15 +22,6 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "framework",
-    "value" : "wdio"
-  }, {
-    "name" : "language",
-    "value" : "javascript"
-  }, {
-    "name" : "thread",
-    "value" : "0-0"
-  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -38,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using only xpath locators"
+    "value" : "using css and xpath locators"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -46,10 +37,7 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ {
-    "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : true,
   "retry" : true,
@@ -57,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "43d7bc387c0eeab3.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "ed2e4926e11da699.json",
+  "parameterValues" : [ ]
 }

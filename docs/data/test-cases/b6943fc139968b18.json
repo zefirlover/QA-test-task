@@ -1,12 +1,12 @@
 {
-  "uid" : "8bf612d20f2e9ed2",
+  "uid" : "b6943fc139968b18",
   "name" : "first task",
   "fullName" : "My test application.first task",
-  "historyId" : "49e48198f4064fe1a43c7f1f946c3bcc",
+  "historyId" : "51bacfd0de7af344977ecbc463370caf",
   "time" : {
-    "start" : 1650635982348,
-    "stop" : 1650635997064,
-    "duration" : 14716
+    "start" : 1650638197434,
+    "stop" : 1650638206523,
+    "duration" : 9089
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -46,7 +46,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
+    "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -57,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8bf612d20f2e9ed2.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "b6943fc139968b18.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

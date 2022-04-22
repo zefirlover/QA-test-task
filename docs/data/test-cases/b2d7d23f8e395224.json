@@ -1,11 +1,11 @@
 {
-  "uid" : "197763edf95b2cb4",
+  "uid" : "b2d7d23f8e395224",
   "name" : "second task",
   "fullName" : "My test application.second task",
   "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650635932297,
-    "stop" : 1650635932297,
+    "start" : 1650559183672,
+    "stop" : 1650559183672,
     "duration" : 0
   },
   "description" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -39,32 +39,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "84bb77e49a359e6a",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1650559183672,
-        "stop" : 1650559183672,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "3007d258a89a26c3",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1650541351762,
-        "stop" : 1650541351762,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "197763edf95b2cb4.json",
+  "source" : "b2d7d23f8e395224.json",
   "parameterValues" : [ ]
 }
