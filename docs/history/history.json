@@ -1,0 +1,138 @@
+{
+  "ab933b157ec7eec20a575751e4170b4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3554de50746fefab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650641197886,
+        "stop" : 1650641208255,
+        "duration" : 10369
+      }
+    } ]
+  },
+  "4855e21284a3bbc8d02ffec3586da880" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33758d2d85a4cfef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650641192288,
+        "stop" : 1650641196966,
+        "duration" : 4678
+      }
+    } ]
+  },
+  "fe7491b51143fd4df008e6ab18fb14d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adb3450ccdc277ce",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650635932297,
+        "stop" : 1650635932297,
+        "duration" : 0
+      }
+    } ]
+  },
+  "17311d7bf55046b7876164f21ebf1273" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c43b7cd0c3072f9",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650635932297,
+        "stop" : 1650635932297,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cd856c3d625fe504f51e5a5ff825f7c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba2a39a80319e522",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650635932296,
+        "stop" : 1650635932296,
+        "duration" : 0
+      }
+    } ]
+  },
+  "89fe89edc8a3306171553dd71c8dabb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91c87e2bd2219406",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650641196966,
+        "stop" : 1650641197886,
+        "duration" : 920
+      }
+    } ]
+  },
+  "49e48198f4064fe1a43c7f1f946c3bcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f73d5e1f3e8ee0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650641177185,
+        "stop" : 1650641192288,
+        "duration" : 15103
+      }
+    } ]
+  }
+}

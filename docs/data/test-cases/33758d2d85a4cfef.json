@@ -1,0 +1,94 @@
+{
+  "uid" : "33758d2d85a4cfef",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "4855e21284a3bbc8d02ffec3586da880",
+  "time" : {
+    "start" : 1650641192288,
+    "stop" : 1650641196966,
+    "duration" : 4678
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7fb97f44a05736f",
+      "name" : "Screenshot",
+      "source" : "e7fb97f44a05736f.png",
+      "type" : "image/png",
+      "size" : 3686
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My test application"
+  }, {
+    "name" : "testClass",
+    "value" : "My test application"
+  }, {
+    "name" : "testMethod",
+    "value" : "second task"
+  }, {
+    "name" : "package",
+    "value" : "My test application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65ea29c166cdb226",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650638364325,
+        "stop" : 1650638367625,
+        "duration" : 3300
+      }
+    }, {
+      "uid" : "b556c29e0227a3db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650635997065,
+        "stop" : 1650636000175,
+        "duration" : 3110
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33758d2d85a4cfef.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

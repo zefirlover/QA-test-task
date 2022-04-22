@@ -1,0 +1,78 @@
+{
+  "uid" : "91c87e2bd2219406",
+  "name" : "using css and xpath locators",
+  "fullName" : "My test application.using css and xpath locators",
+  "historyId" : "89fe89edc8a3306171553dd71c8dabb4",
+  "time" : {
+    "start" : 1650641196966,
+    "stop" : 1650641197886,
+    "duration" : 920
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My test application"
+  }, {
+    "name" : "testClass",
+    "value" : "My test application"
+  }, {
+    "name" : "testMethod",
+    "value" : "using css and xpath locators"
+  }, {
+    "name" : "package",
+    "value" : "My test application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "331bda7180d3e1af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650638367625,
+        "stop" : 1650638368735,
+        "duration" : 1110
+      }
+    }, {
+      "uid" : "478620c5d30c4191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650636000176,
+        "stop" : 1650636001393,
+        "duration" : 1217
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91c87e2bd2219406.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
