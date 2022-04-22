@@ -1,5 +1,5 @@
 {
-  "uid" : "e13c80a1a6ee7629",
+  "uid" : "2e9370a901348680",
   "name" : "using css and xpath locators",
   "fullName" : "My test application.using css and xpath locators",
   "historyId" : "17311d7bf55046b7876164f21ebf1273",
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e13c80a1a6ee7629.json",
+  "source" : "2e9370a901348680.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "64548a4a25680d10",
+  "uid" : "52d15c89a0fe21bf",
   "name" : "second task",
   "fullName" : "My test application.second task",
   "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650562232104,
-    "stop" : 1650562232104,
+    "start" : 1650624106945,
+    "stop" : 1650624106945,
     "duration" : 0
   },
   "description" : "",
@@ -44,7 +44,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "c5afaf66233e237",
+      "uid" : "1db5ff83b13dcde9",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -53,7 +53,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "c03c6735aab7d6b",
+      "uid" : "a8722e16a7ce9010",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -85,6 +85,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "64548a4a25680d10.json",
+  "source" : "52d15c89a0fe21bf.json",
   "parameterValues" : [ ]
 }
