@@ -1,5 +1,6 @@
 name: Main Github Actions
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main' # Set branch of the GH repo to push
@@ -51,7 +52,7 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
         env:
-          API_TOKEN_GITHUB: ${{'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'}}
+          API_TOKEN_GITHUB: ${{'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'}}
         with:
           source-directory: 'docs'
           destination-github-username: 'zefirlover'
