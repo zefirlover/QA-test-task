@@ -1,50 +1,50 @@
 [ {
-  "uid" : "11bb48c6cfe535e7",
-  "name" : "using only xpath locators",
-  "time" : {
-    "start" : 1650624903847,
-    "stop" : 1650624907030,
-    "duration" : 3183
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b9af10309746e3b6",
-  "name" : "first task",
-  "time" : {
-    "start" : 1650624903847,
-    "stop" : 1650624903847,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "79f2087a3607f4a6",
+  "uid" : "b9b73459db95b72b",
   "name" : "using css and xpath locators",
   "time" : {
-    "start" : 1650624903847,
-    "stop" : 1650624903847,
+    "start" : 1650624951417,
+    "stop" : 1650624951417,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "786afcc40a437ec7",
-  "name" : "second task",
+  "uid" : "25a065f5567efa5d",
+  "name" : "first task",
   "time" : {
-    "start" : 1650624903847,
-    "stop" : 1650624903847,
+    "start" : 1650624951416,
+    "stop" : 1650624951416,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e49c999f14e7170d",
+  "uid" : "42a50c3110355fd",
   "name" : "using only xpath locators",
   "time" : {
     "start" : 1650559183672,
     "stop" : 1650559196444,
     "duration" : 12772
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "82c4eea7c39ad054",
+  "name" : "second task",
+  "time" : {
+    "start" : 1650624951416,
+    "stop" : 1650624951417,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "208908f604941247",
+  "name" : "using only xpath locators",
+  "time" : {
+    "start" : 1650624951417,
+    "stop" : 1650624955502,
+    "duration" : 4085
   },
   "status" : "skipped",
   "severity" : "normal"

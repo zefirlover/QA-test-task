@@ -1,12 +1,12 @@
 {
-  "uid" : "e49c999f14e7170d",
-  "name" : "using only xpath locators",
-  "fullName" : "My test application.using only xpath locators",
-  "historyId" : "ab933b157ec7eec20a575751e4170b4f",
+  "uid" : "82c4eea7c39ad054",
+  "name" : "second task",
+  "fullName" : "My test application.second task",
+  "historyId" : "fe7491b51143fd4df008e6ab18fb14d6",
   "time" : {
-    "start" : 1650559183672,
-    "stop" : 1650559196444,
-    "duration" : 12772
+    "start" : 1650624951416,
+    "stop" : 1650624951417,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,20 +17,11 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 2,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "framework",
-    "value" : "wdio"
-  }, {
-    "name" : "language",
-    "value" : "javascript"
-  }, {
-    "name" : "thread",
-    "value" : "0-0"
-  }, {
     "name" : "suite",
     "value" : "My test application"
   }, {
@@ -38,7 +29,7 @@
     "value" : "My test application"
   }, {
     "name" : "testMethod",
-    "value" : "using only xpath locators"
+    "value" : "second task"
   }, {
     "name" : "package",
     "value" : "My test application"
@@ -46,23 +37,29 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ {
-    "name" : "browser",
-    "value" : "chrome-100.0.4896.127"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "10a1c16a616c59f0",
+      "uid" : "1a91767ebe341312",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1650541351763,
-        "stop" : 1650541357620,
-        "duration" : 5857
+        "start" : 1650559183672,
+        "stop" : 1650559183672,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4393144a0333a503",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650541351762,
+        "stop" : 1650541351762,
+        "duration" : 0
       }
     } ],
     "categories" : [ ],
@@ -76,18 +73,18 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "f5831b7769d0a1e2",
+        "uid" : "4b49649cf2c11a73",
         "status" : "skipped",
         "statusDetails" : "Test ignored",
         "time" : {
           "start" : 1650559183672,
-          "stop" : 1650559196444,
-          "duration" : 12772
+          "stop" : 1650559183672,
+          "duration" : 0
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "e49c999f14e7170d.json",
-  "parameterValues" : [ "chrome-100.0.4896.127" ]
+  "source" : "82c4eea7c39ad054.json",
+  "parameterValues" : [ ]
 }
