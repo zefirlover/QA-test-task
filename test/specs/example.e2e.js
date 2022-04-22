@@ -4,7 +4,7 @@ describe('My test application', () => {
         return Math.floor(Math.random() * max); // to create pseudorandom screenshot name
     }
 
-    xit('first task', async () => {
+    it('first task', async () => {
         await browser.url(`https://webdriver.io/`);
         const blogButton = await $('[href="/docs/api"]');
         await blogButton.click();
@@ -27,7 +27,7 @@ describe('My test application', () => {
 
         await browser.pause(5000);
     });
-    xit('second task', async () => {
+    it('second task', async () => {
         await browser.url(`https://webdriver.io/docs/api.html`);
         const getRef = await $('a=JSONWire protocol');
         await browser.newWindow(await getRef.getAttribute('href'));
@@ -62,7 +62,7 @@ describe('My test application', () => {
         await blogButton.click();
         console.log("blog button is focused: ", await blogButton.isFocused());
     });
-    xit('using css and xpath locators', async () => {
+    it('using css and xpath locators', async () => {
         await browser.url(`https://webdriver.io/docs/api.html`);
 
         const navEl = await $('.navbar__items').$$('[class="navbar__item navbar__link"]');
@@ -89,7 +89,7 @@ describe('My test application', () => {
 
         console.log('paragraph: ', await paragraph);
     });
-    xit('using only xpath locators', async () => {
+    it('using only xpath locators', async () => {
         await browser.url(`https://webdriver.io/docs/api.html`);
 
         const footerCols = await $(`//div[@class="footer__title"] | div[@class="footer__items"]`); // using or
